@@ -81,7 +81,6 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
   database: ttotalfantasy_production
   username: ttotalfantasy
   password: <%= ENV["TTOTALFANTASY_DATABASE_PASSWORD"] %>
