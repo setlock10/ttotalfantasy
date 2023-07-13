@@ -19,8 +19,8 @@ teams = [
         "under_juice_2023": -110,
         "elo_2022": 1733,
         "playoffs_2022": true,
-        "logo": "public/KC.png",
-        "logo_large": "public/KC_large.png"
+        "logo": "KC.png",
+        "logo_large": "KC_large.png"
     },
     {
         "id": 2,
@@ -34,8 +34,8 @@ teams = [
         "under_juice_2023": -110,
         "elo_2022": 1688,
         "playoffs_2022": true,
-        "logo": "public/CIN.png",
-        "logo_large": "public/CIN_large.png"
+        "logo": "CIN.png",
+        "logo_large": "CIN_large.png"
     },
     {
         "id": 3,
@@ -49,8 +49,8 @@ teams = [
         "under_juice_2023": -115,
         "elo_2022": 1644,
         "playoffs_2022": true,
-        "logo": "public/SF.png",
-        "logo_large": "public/SF_large.png"
+        "logo": "SF.png",
+        "logo_large": "SF_large.png"
     },
     {
         "id": 4,
@@ -64,8 +64,8 @@ teams = [
         "under_juice_2023": 110,
         "elo_2022": 1677,
         "playoffs_2022": true,
-        "logo": "public/PHI.png",
-        "logo_large": "public/PHI_large.png"
+        "logo": "PHI.png",
+        "logo_large": "PHI_large.png"
     },
     {
         "id": 5,
@@ -79,8 +79,8 @@ teams = [
         "under_juice_2023": 105,
         "elo_2022": 1664,
         "playoffs_2022": true,
-        "logo": "public/BUF.png",
-        "logo_large": "public/BUF_large.png"
+        "logo": "BUF.png",
+        "logo_large": "BUF_large.png"
     },
     {
         "id": 6,
@@ -94,8 +94,8 @@ teams = [
         "under_juice_2023": 120,
         "elo_2022": 1531,
         "playoffs_2022": true,
-        "logo": "public/JAX.png",
-        "logo_large": "public/JAX_large.png"
+        "logo": "JAX.png",
+        "logo_large": "JAX_large.png"
     },
     {
         "id": 7,
@@ -109,8 +109,8 @@ teams = [
         "under_juice_2023": 100,
         "elo_2022": 1386,
         "playoffs_2022": false,
-        "logo": "public/NYJ.png",
-        "logo_large": "public/NYJ_large.png"
+        "logo": "NYJ.png",
+        "logo_large": "NYJ_large.png"
     },
     {
         "id": 8,
@@ -124,8 +124,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1535,
         "playoffs_2022": true,
-        "logo": "public/LAC.png",
-        "logo_large": "public/LAC_large.png"
+        "logo": "LAC.png",
+        "logo_large": "LAC_large.png"
     },
     {
         "id": 9,
@@ -139,8 +139,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1631,
         "playoffs_2022": true,
-        "logo": "public/DAL.png",
-        "logo_large": "public/DAL_large.png"
+        "logo": "DAL.png",
+        "logo_large": "DAL_large.png"
     },
     {
         "id": 10,
@@ -154,8 +154,8 @@ teams = [
         "under_juice_2023": -130,
         "elo_2022": 1485,
         "playoffs_2022": false,
-        "logo": "public/NO.png",
-        "logo_large": "public/NO_large.png"
+        "logo": "NO.png",
+        "logo_large": "NO_large.png"
     },
     {
         "id": 11,
@@ -169,8 +169,8 @@ teams = [
         "under_juice_2023": -130,
         "elo_2022": 1521,
         "playoffs_2022": true,
-        "logo": "public/MIA.png",
-        "logo_large": "public/MIA_large.png"
+        "logo": "MIA.png",
+        "logo_large": "MIA_large.png"
     },
     {
         "id": 12,
@@ -184,8 +184,8 @@ teams = [
         "under_juice_2023": 125,
         "elo_2022": 1527,
         "playoffs_2022": false,
-        "logo": "public/DET.png",
-        "logo_large": "public/DET_large.png"
+        "logo": "DET.png",
+        "logo_large": "DET_large.png"
     },
     {
         "id": 13,
@@ -199,8 +199,8 @@ teams = [
         "under_juice_2023": 120,
         "elo_2022": 1485,
         "playoffs_2022": false,
-        "logo": "public/CLE.png",
-        "logo_large": "public/CLE_large.png"
+        "logo": "CLE.png",
+        "logo_large": "CLE_large.png"
     },
     {
         "id": 14,
@@ -214,8 +214,8 @@ teams = [
         "under_juice_2023": 120,
         "elo_2022": 1599,
         "playoffs_2022": true,
-        "logo": "public/BAL.png",
-        "logo_large": "public/BAL_large.png"
+        "logo": "BAL.png",
+        "logo_large": "BAL_large.png"
     },
     {
         "id": 15,
@@ -229,8 +229,8 @@ teams = [
         "under_juice_2023": 105,
         "elo_2022": 1455,
         "playoffs_2022": true,
-        "logo": "public/SEA.png",
-        "logo_large": "public/SEA_large.png"
+        "logo": "SEA.png",
+        "logo_large": "SEA_large.png"
     },
     {
         "id": 16,
@@ -244,8 +244,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1534,
         "playoffs_2022": true,
-        "logo": "public/MIN.png",
-        "logo_large": "public/MIN_large.png"
+        "logo": "MIN.png",
+        "logo_large": "MIN_large.png"
     },
     {
         "id": 17,
@@ -259,8 +259,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1379,
         "playoffs_2022": false,
-        "logo": "public/DEN.png",
-        "logo_large": "public/DEN_large.png"
+        "logo": "DEN.png",
+        "logo_large": "DEN_large.png"
     },
     {
         "id": 18,
@@ -274,8 +274,8 @@ teams = [
         "under_juice_2023": -115,
         "elo_2022": 1519,
         "playoffs_2022": false,
-        "logo": "public/PIT.png",
-        "logo_large": "public/PIT_large.png"
+        "logo": "PIT.png",
+        "logo_large": "PIT_large.png"
     },
     {
         "id": 19,
@@ -289,8 +289,8 @@ teams = [
         "under_juice_2023": -130,
         "elo_2022": 1508,
         "playoffs_2022": true,
-        "logo": "public/NYG.png",
-        "logo_large": "public/NYG_large.png"
+        "logo": "NYG.png",
+        "logo_large": "NYG_large.png"
     },
     {
         "id": 20,
@@ -304,8 +304,8 @@ teams = [
         "under_juice_2023": 105,
         "elo_2022": 1469,
         "playoffs_2022": false,
-        "logo": "public/LAR.png",
-        "logo_large": "public/LAR_large.png"
+        "logo": "LAR.png",
+        "logo_large": "LAR_large.png"
     },
     {
         "id": 21,
@@ -319,8 +319,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1500,
         "playoffs_2022": false,
-        "logo": "public/NE.png",
-        "logo_large": "public/NE_large.png"
+        "logo": "NE.png",
+        "logo_large": "NE_large.png"
     },
     {
         "id": 22,
@@ -334,8 +334,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1332,
         "playoffs_2022": false,
-        "logo": "public/CHI.png",
-        "logo_large": "public/CHI_large.png"
+        "logo": "CHI.png",
+        "logo_large": "CHI_large.png"
     },
     {
         "id": 23,
@@ -349,8 +349,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1331,
         "playoffs_2022": false,
-        "logo": "public/ATL.png",
-        "logo_large": "public/ATL_large.png"
+        "logo": "ATL.png",
+        "logo_large": "ATL_large.png"
     },
     {
         "id": 24,
@@ -364,8 +364,8 @@ teams = [
         "under_juice_2023": -110,
         "elo_2022": 1485,
         "playoffs_2022": false,
-        "logo": "public/CAR.png",
-        "logo_large": "public/CAR_large.png"
+        "logo": "CAR.png",
+        "logo_large": "CAR_large.png"
     },
     {
         "id": 25,
@@ -379,8 +379,8 @@ teams = [
         "under_juice_2023": -115,
         "elo_2022": 1465,
         "playoffs_2022": false,
-        "logo": "public/TEN.png",
-        "logo_large": "public/TEN_large.png"
+        "logo": "TEN.png",
+        "logo_large": "TEN_large.png"
     },
     {
         "id": 26,
@@ -394,8 +394,8 @@ teams = [
         "under_juice_2023": -130,
         "elo_2022": 1406,
         "playoffs_2022": false,
-        "logo": "public/VEG.png",
-        "logo_large": "public/VEG_large.png"
+        "logo": "VEG.png",
+        "logo_large": "VEG_large.png"
     },
     {
         "id": 27,
@@ -409,8 +409,8 @@ teams = [
         "under_juice_2023": -130,
         "elo_2022": 1515,
         "playoffs_2022": false,
-        "logo": "public/GB.png",
-        "logo_large": "public/GB_large.png"
+        "logo": "GB.png",
+        "logo_large": "GB_large.png"
     },
     {
         "id": 28,
@@ -424,8 +424,8 @@ teams = [
         "under_juice_2023": -135,
         "elo_2022": 1492,
         "playoffs_2022": false,
-        "logo": "public/WAS.png",
-        "logo_large": "public/WAS_large.png"
+        "logo": "WAS.png",
+        "logo_large": "WAS_large.png"
     },
     {
         "id": 29,
@@ -439,8 +439,8 @@ teams = [
         "under_juice_2023": 105,
         "elo_2022": 1381,
         "playoffs_2022": false,
-        "logo": "public/IND.png",
-        "logo_large": "public/IND_large.png"
+        "logo": "IND.png",
+        "logo_large": "IND_large.png"
     },
     {
         "id": 30,
@@ -454,8 +454,8 @@ teams = [
         "under_juice_2023": -105,
         "elo_2022": 1479,
         "playoffs_2022": true,
-        "logo": "public/TB.png",
-        "logo_large": "public/TB_large.png"
+        "logo": "TB.png",
+        "logo_large": "TB_large.png"
     },
     {
         "id": 31,
@@ -469,8 +469,8 @@ teams = [
         "under_juice_2023": -110,
         "elo_2022": 1307,
         "playoffs_2022": false,
-        "logo": "public/HOU.png",
-        "logo_large": "public/HOU_large.png"
+        "logo": "HOU.png",
+        "logo_large": "HOU_large.png"
     },
     {
         "id": 32,
@@ -484,8 +484,8 @@ teams = [
         "under_juice_2023": -125,
         "elo_2022": 1337,
         "playoffs_2022": false,
-        "logo": "public/ARI.png",
-        "logo_large": "public/ARI_large.png"
+        "logo": "ARI.png",
+        "logo_large": "ARI_large.png"
     }
 ]
 
