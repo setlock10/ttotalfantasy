@@ -2,18 +2,8 @@ import { useState, useEffect } from "react";
 //import TeamCard from "./TeamCard.js"
 function PotCard({pot}){
     console.log(pot)
-    //let teamCards=pot.map(team=> {return <TeamCard key={team.id} team={team}/>})
-    // const cbArrayState  = [];
-    // const [chkbx1,setChkbx1] = useState(false)
-    // const [chkbx2,setChkbx2] = useState(false)
-    // const [chkbx3,setChkbx3] = useState(false)
-    // const [chkbx4,setChkbx4] = useState(false)
-    // cbArrayState.push(chkbx1);
-    // cbArrayState.push(chkbx2);
-    // cbArrayState.push(chkbx3);
-    // cbArrayState.push(chkbx4);
-    const [message, setMessage] = useState("Please select two teams from Pot ");
 
+    const [message, setMessage] = useState("Please select two teams from Pot ");
     const [numChecked,setNumChecked] = useState(0);
     useEffect(()=>{
 
