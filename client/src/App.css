@@ -22,8 +22,9 @@ td, th {
 }
 
 .outline{
-  border:2px solid red;
-  background: gray;
+  /* border:2px solid red; */
+  /* background: gray; */
+  opacity: .5;
 }
 
 div{

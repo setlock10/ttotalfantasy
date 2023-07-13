@@ -12,6 +12,7 @@ function PotCard({pot}){
     // cbArrayState.push(chkbx2);
     // cbArrayState.push(chkbx3);
     // cbArrayState.push(chkbx4);
+    const [message, setMessage] = useState("Please select two teams from Pot ");
 
     const [numChecked,setNumChecked] = useState(0);
     useEffect(()=>{
@@ -25,6 +26,7 @@ function PotCard({pot}){
 
         if (numChecked===2){
             console.log("2")
+            setMessage("Teams selected for Pot ")
              for (let i=0;i<pot.length;i++){
                 let cb = document.getElementById(`cb${i}`)
                 let row = document.getElementById(`row${pot[i].pot_8_2023}-${i}`)
@@ -73,7 +75,7 @@ function PotCard({pot}){
 
 
      return(
-        <div>Please select two teams from Pot {pot[0].pot_8_2023}
+        <div>{message} {pot[0].pot_8_2023}
         <table>
            <tr>
                 <th>Pot {pot[0].pot_8_2023} </th>
