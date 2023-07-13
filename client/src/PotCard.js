@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import TeamCard from "./TeamCard";
 //import TeamCard from "./TeamCard.js"
 function PotCard({pot}){
     console.log(pot)
@@ -29,36 +30,14 @@ function PotCard({pot}){
             
             
             
-            
-            //let cb = document.getElementById(`cb${0}`)
-            //cb.disabled=true
-
-            //let row = document.getElementById(`row${0}`)
-            //cb.classList.add("outline")
-            //row.classList.add("outline")
-
-        }
+         }
     },[numChecked])
 
-    //const [numChecked,setNumChecked] = useState(0);
-    //const [isPicked,setIsPicked] = useState(false);
 
-    function onCbChange(team){
-        
-        console.log(team.selected)
-        if (team.selected){
-            team.selected=false
-            setNumChecked(numChecked-1)
-        }
-        else{
-            team.selected=true;
-            setNumChecked(numChecked+1)
-        }
-
-
-   
-
-    }
+  
+    let teamCards = pot.map((team,index)=>{
+        return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} key={team.number}/>
+    })
     
 
 
@@ -76,40 +55,8 @@ function PotCard({pot}){
                 <th>2022 ELO</th>
                 </tr>
 
-               {/* {teamCards}  */}
-               <tr id={`row${pot[0].pot_8_2023}-0`}>
-                    <td><input  onChange={(e)=>onCbChange(pot[0])} type="checkbox" id={`cb${pot[0].pot_8_2023}-0`} ></input></td>
-                    <td><img  className="card-image" alt={pot[0].name} src={pot[0].logo}/></td>
-                    <td>{pot[0].code}</td>
-                    <td>{pot[0].win_total_2023}</td>
-                    <td>{pot[0].over_juice_2023}</td>
-                    <td>{pot[0].elo_2022}</td>
-                </tr>
-                <tr id={`row${pot[1].pot_8_2023}-1`}>
-                    <td><input onChange={(e)=>onCbChange(pot[1])} type="checkbox"  id={`cb${pot[1].pot_8_2023}-1`}></input></td>
-                    <td><img  className="card-image" alt={pot[1].name} src={pot[1].logo}/></td>
-                    <td>{pot[1].code}</td>
-                    <td>{pot[1].win_total_2023}</td>
-                    <td>{pot[1].over_juice_2023}</td>
-                    <td>{pot[1].elo_2022}</td>
-                </tr>
-                <tr id={`row${pot[2].pot_8_2023}-2`}>
-                    <td><input onChange={(e)=>onCbChange(pot[2])} type="checkbox"  id={`cb${pot[2].pot_8_2023}-2`}></input></td>
-                    <td><img  className="card-image" alt={pot[2].name} src={pot[2].logo}/></td>
-                    <td>{pot[2].code}</td>
-                    <td>{pot[2].win_total_2023}</td>
-                    <td>{pot[2].over_juice_2023}</td>
-                    <td>{pot[2].elo_2022}</td>
-                </tr>
-                <tr id={`row${pot[3].pot_8_2023}-3`}>
-                    <td><input onChange={(e)=>onCbChange(pot[3])} type="checkbox"  id={`cb${pot[3].pot_8_2023}-3`}></input></td>
-                    <td><img  className="card-image" alt={pot[3].name} src={pot[3].logo}/></td>
-                    <td>{pot[3].code}</td>
-                    <td>{pot[3].win_total_2023}</td>
-                    <td>{pot[3].over_juice_2023}</td>
-                    <td>{pot[3].elo_2022}</td>
-                </tr>
-
+               {teamCards} 
+    
         </table>
         
         </div>
