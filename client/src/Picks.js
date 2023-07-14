@@ -11,21 +11,19 @@ function Picks(){
         .then((r) => r.json())
         .then((data)=>{
             setTeams(data)
-            console.log(data)
-
+            //console.log(data)
         }
         )
     },[])
 
-    //let teamCards=teams.map(team=> {return <TeamCard key={team.id} team={team}/>})
-    // find max pot number
+    
     let numberOfPots = 0;
     teams.forEach(team => {
         if (team.pot_8_2023>numberOfPots)
             numberOfPots=team.pot_8_2023;
     })
 
-    console.log(numberOfPots)
+    //console.log(numberOfPots)
     const hashPots=[];
     
 
@@ -38,26 +36,15 @@ function Picks(){
 
     }
 
-    console.log(hashPots)
+    //console.log(hashPots)
 
 
     let potCards = hashPots.map(pot=> {
-        //console.log("pot", pot[0].id)
         return <PotCard  pot={pot} key={pot[0].pot_8_2023}/>
     })
-
-
-
-
-
-
-
     return(
         <div>
-                             {potCards }
-            {/* {teamCards} */}
-            
-            
+            {potCards}   
         </div>
     )
 }

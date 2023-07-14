@@ -26,7 +26,7 @@ function TeamCard({team,index,setNumChecked,numChecked,isCheckedArray, setIsChec
     return(
         
                 <tr id={`row${team.pot_8_2023}-${index}`}>
-                    <td><input onChange={(e)=>onCbChange()} type="checkbox" id={`cb${team.pot_8_2023}-${index}`}></input></td>
+                    <td><input onChange={()=>onCbChange()} type="checkbox" id={`cb${team.pot_8_2023}-${index}`}></input></td>
                     <td><img  class="card-image" alt={team.name} src={team.logo}/></td>
                     <td>{team.code}</td>
                     <td>{team.win_total_2023}</td>

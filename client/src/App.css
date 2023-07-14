@@ -15,11 +15,29 @@
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 0px;
   height: 25px;
   font-size: 9pt;
 
 }
+
+.underline{
+  text-decoration: underline;
+}
+
+.doc{
+  position: fixed;
+  left:20px;
+  top:50px;
+  height:100px;
+  width:300px;
+  border: 1px solid black;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+
 
 .outline{
   /* border:2px solid red; */
