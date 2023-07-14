@@ -6,23 +6,19 @@ function PotCard({pot}){
 
     const [message, setMessage] = useState("Please select two teams from Pot ");
     const [numChecked,setNumChecked] = useState(0);
+    const [isCheckedArray,setIsCheckedArray] = useState(new Array(pot.length).fill(false))
     useEffect(()=>{
 
         
         console.log("testing",numChecked)
-        // if 2 teams are selected
-
-
-
-
-        if (numChecked===2){
+         if (numChecked===2){
             console.log("2")
             setMessage("Teams selected for Pot ")
              for (let i=0;i<pot.length;i++){
                 let cb = document.getElementById(`cb${pot[i].pot_8_2023}-${i}`)
                 let row = document.getElementById(`row${pot[i].pot_8_2023}-${i}`)
      
-                if (!pot[i].selected){
+                if (!isCheckedArray[i]){
                     cb.disabled=true;
                     row.classList.add("outline")
                 }
@@ -31,12 +27,25 @@ function PotCard({pot}){
             
             
          }
+         else if((numChecked<2)&&(message==="Teams selected for Pot ")){
+            setMessage("Please select two teams from Pot ")
+            for (let i=0;i<pot.length;i++){
+                let cb = document.getElementById(`cb${pot[i].pot_8_2023}-${i}`)
+                let row = document.getElementById(`row${pot[i].pot_8_2023}-${i}`)
+                cb.disabled=false;
+                row.classList.remove("outline")
+                setMessage("Please select two teams from Pot ")
+
+            }
+
+
+         }
     },[numChecked])
 
 
   
     let teamCards = pot.map((team,index)=>{
-        return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} key={team.number}/>
+        return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} key={team.number}/>
     })
     
 
