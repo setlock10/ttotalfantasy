@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sessions
   resources :codes
   resources :pot8s
   resources :users
@@ -7,4 +8,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  post '/login', to: 'sessions#create'
+  get "/me", to: "users#show"
+
+  
 end
