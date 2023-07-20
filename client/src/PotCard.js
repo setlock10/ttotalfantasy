@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import TeamCard from "./TeamCard";
 
 function PotCard({pot}){
-    console.log(pot)
+   // console.log(pot)
 
     const [message, setMessage] = useState("Please select two teams from Pot ");
     const [numChecked,setNumChecked] = useState(0);

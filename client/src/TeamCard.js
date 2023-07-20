@@ -1,5 +1,5 @@
 function TeamCard({team,index,setNumChecked,numChecked,isCheckedArray, setIsCheckedArray}){
-    console.log(team)
+    //console.log(team)
     function onCbChange(){
         
         //console.log(team.selected)
