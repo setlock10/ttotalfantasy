@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :picks
   resources :sessions
   resources :codes
   resources :pot8s
