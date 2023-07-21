@@ -1,23 +1,62 @@
 import React, {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 
 
 function Login({ user, setUser, setIsAuthenticated, isAuthenticated}){
 
+    const navigate = useNavigate()
+    const [errors, setErrors] = useState([])
+
     const [formData, setFormData] = useState({
         username:'',
-        email:'',
         password:''
     })
 
-    const {username, email, password} = formData
+    const {username, password} = formData
 
     function onLogin(e){
         e.preventDefault()
+        const user = {
+            username,
+            password
+        }
+        // Logs in user
+        fetch(`/login`,{
+          method:'POST',
+          headers:{'Content-Type': 'application/json'},
+          body:JSON.stringify(user)
+        })
+        .then(res => {
+            if(res.ok){
+                res.json().then(user => {
+                    setFormData({
+                        username:'',
+                        password:''
+                    })
+
+
+                    navigate(`/`)
+                    setIsAuthenticated(true)
+                    setUser(user)
+                    // debugger
+
+   
+                })
+            }else {
+                res.json().then(json => setErrors(json.errors))
+            }
+        })
+       
     }
 
     const handleChange = (e) => {
         const { name, value } = e.target
         setFormData({ ...formData, [name]: value })
+      }
+
+      function goToSignUp(){
+        navigate('/Signup')
+
       }
  
 
@@ -27,12 +66,13 @@ function Login({ user, setUser, setIsAuthenticated, isAuthenticated}){
             <div className="loginBackground" ></div>
             <form className="loginForm"  onSubmit={onLogin}>
                 <div>
-                    <input className="inputBox" type='text' name='email' placeholder="Email Address" value={email} onChange={handleChange} />
+                    <input className="inputBox" type='text' name='username' placeholder="Email Address" value={username} onChange={handleChange} />
                 </div>
                 <div>
                     <input className="inputBox"  type='password' name='password' placeholder="Password" value={password} onChange={handleChange} />
                 </div>
                 <input className="button"  type='submit' value='SIGN IN' /> 
+                <input onClick={goToSignUp} className="button" type="button"  value='SIGN UP' /> 
             </form>  
             {/* <div className="divider"></div>      */}
         </div>
