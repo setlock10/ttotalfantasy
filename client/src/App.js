@@ -73,7 +73,7 @@ function App() {
 
           
 
-        <Route path="/" element={<Picks/>}/>
+        <Route path="/" element={<Picks user={user}/>}/>
           {/* <Picks/> */}
          
       </Routes>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import TeamCard from "./TeamCard";
 
-function PotCard({pot}){
+function PotCard({pot,picked, setPicked}){
    // console.log(pot)
 
     const [message, setMessage] = useState("Please select two teams from Pot ");
@@ -52,7 +52,7 @@ function PotCard({pot}){
 
   
     let teamCards = pot.map((team,index)=>{
-        return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} key={team.number}/>
+        return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} picked={picked} setPicked ={setPicked} key={team.number}/>
     })
 
     function onClickHeader(code){

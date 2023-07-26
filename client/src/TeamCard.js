@@ -1,4 +1,4 @@
-function TeamCard({team,index,setNumChecked,numChecked,isCheckedArray, setIsCheckedArray}){
+function TeamCard({team,index,setNumChecked,numChecked,isCheckedArray, setIsCheckedArray, picked, setPicked}){
     //console.log(team)
     function onCbChange(){
         
@@ -8,11 +8,24 @@ function TeamCard({team,index,setNumChecked,numChecked,isCheckedArray, setIsChec
             tempArray[index]=false
             setIsCheckedArray(tempArray)
             setNumChecked(numChecked-1)
+            let tempPicked={...picked}
+            //tempPicked=picked;
+            tempPicked[team.id]=false;
+            setPicked(tempPicked);
+            console.log(picked)
+
+
         }
         else{
             tempArray[index]=true;
             setIsCheckedArray(tempArray)
             setNumChecked(numChecked+1);
+            console.log(team)
+            let tempPicked={...picked}
+            //tempPicked=picked;
+            tempPicked[team.id]=true;
+            setPicked(tempPicked);
+            console.log(picked)
         }
 
 
