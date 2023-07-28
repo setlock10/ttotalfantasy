@@ -8,26 +8,19 @@ function PotCard({pot,picked, setPicked}){
     const [numChecked,setNumChecked] = useState(0);
     const [isCheckedArray,setIsCheckedArray] = useState(new Array(pot.length).fill(false))
     
- //useEffect(()=>{
-
-//     console.log(isCheckedArray)
-//     console.log(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
-//     setNumChecked(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
-//     let temp = new Array(pot.length).fill(false)
-//     for (let i=0;i<pot.length;i++){
-//         temp[i]=picked[pot[i].id]
+useEffect(()=>{
+    console.log(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
+    setNumChecked(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
+    let temp = new Array(pot.length).fill(false)
+    for (let i=0;i<pot.length;i++){
+        temp[i]=picked[pot[i].id]
 
 
-//     }
-     //console.log(picked)
-//     setIsCheckedArray(temp)
-    
-        //  temp[index]=picked[team.id];
-        //  setIsCheckedArray(temp);
+    }
+    setIsCheckedArray(temp)
 
 
-
- //},[isCheckedArray])
+},[])
     
     
     useEffect(()=>{
@@ -35,13 +28,13 @@ function PotCard({pot,picked, setPicked}){
         //console.log(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
        
 
-        if (picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id]===2){
+        if (numChecked===2){
             disableCBs();
          }
-         else if((picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id]<2)&&(message==="Teams selected for Pot ")){
+         else if((numChecked<2)&&(message==="Teams selected for Pot ")){
             enableCBs();
          }
-    },[picked])
+    },[numChecked])
 
     function disableCBs(){
 
@@ -52,7 +45,7 @@ function PotCard({pot,picked, setPicked}){
             let cb = document.getElementById(`cb${pot[i].pot_8_2023}-${i}`)
             let row = document.getElementById(`row${pot[i].pot_8_2023}-${i}`)
  
-            if (!picked[pot[i].id]){
+            if (!isCheckedArray[i]){
                 cb.disabled=true;
                 row.classList.add("outline")
             }
@@ -76,10 +69,6 @@ function PotCard({pot,picked, setPicked}){
 
   
     let teamCards = pot.map((team,index)=>{
-        //  let temp=[...isCheckedArray];
-        //  temp[index]=picked[team.id];
-        //  setIsCheckedArray(temp);
-        console.log(picked[team.id])
         return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} picked={picked} setPicked ={setPicked} key={team.number}/>
     })
 
@@ -126,7 +115,7 @@ function PotCard({pot,picked, setPicked}){
                {teamCards} 
     
         </table>
-        <p onClick={()=>onClickDoc()} hidden={true} className="doc" id={`doc${pot[0].pot_8_2023}`}></p>
+        <p onClick={()=>onClickDoc()} hidden="true" className="doc" id={`doc${pot[0].pot_8_2023}`}></p>
         
         </div>
     )

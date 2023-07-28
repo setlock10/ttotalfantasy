@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get "/me", to: "users#show"
   delete "/logout", to: "sessions#destroy"
   post '/picks', to: 'picks#create'
+  get '/picks', to: 'picks#index'
 
 
 
