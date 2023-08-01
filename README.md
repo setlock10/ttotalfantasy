@@ -29,3 +29,7 @@ npm start --prefix client
 git push heroku main
 
 
+heroku run rake db:seed
+heroku run rails db:seed
+
+heroku run rails c

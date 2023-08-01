@@ -46,7 +46,7 @@ td, th {
   height: 4rem;
   border-radius: 50%;
   border: 1rem solid lightgray;
-  border-top: 1rem solid dodgerblue;  
+  border-top: 1rem solid red;  
   animation: spin 2s linear infinite;
 }
 

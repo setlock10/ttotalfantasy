@@ -23,9 +23,9 @@ function About ({setIsLoading, navigate}){
 
             <p>An additional 5 points for winning the superbowl</p>
             
+            <p>Inquiries: setlockLLC@gmail.com</p>
             
-            
-            
+            <p>Like this project and want to support it? Venmo: @SetlockProjects</p>
 
 
             </p>
