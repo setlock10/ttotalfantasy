@@ -16,8 +16,8 @@ class PicksController < ApplicationController
     def update
         
         pick =Pick.find_by(user_id:  session[:user_id], team_id: pick_params[:team_id])
-        #byebug
-        pick.update(pick_params)
+       # byebug
+        pick.update(is_picked: pick_params[:is_picked])
         render json: pick, status: :ok
 
     end
