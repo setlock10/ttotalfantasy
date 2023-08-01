@@ -44,21 +44,21 @@ function App() {
   },[])
 
   function onLogout(){
-    fetch('/logout',{
-      method:'DELETE'
-  })
-  .then(()=>{
-      setIsAuthenticated(false)
-      setUser(null)
-      navigate("/Signin")
+  //   fetch('/logout',{
+  //     method:'DELETE'
+  // })
+  // .then(()=>{
+  //     setIsAuthenticated(false)
+  //     setUser(null)
+  //     navigate("/Signin")
       
-    //   debuggerSess
-      if(user)
-        console.log("ff")
-    else
-        console.log("hey, hey")
+  //   //   debuggerSess
+  //     if(user)
+  //       console.log("ff")
+  //   else
+  //       console.log("hey, hey")
 
-  })
+  // })
 
   }
 
