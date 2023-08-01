@@ -24,7 +24,7 @@ function Picks({setIsLoading,user}){
                     if (data.length!==0){
                         setHasCreatedPicks(true)
                         for (let i=0; i<data.length;i++){
-                            temp[data[i].team_id]=data[i].is_picked
+                            temp[data[i].team_id%32]=data[i].is_picked
                         }
                         setIsLoading(false)
                     }
