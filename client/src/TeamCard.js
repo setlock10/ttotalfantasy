@@ -19,7 +19,7 @@ useEffect(()=>{
     function onCbChange(e){
 
         //setChecked()
-        console.log(e)
+        console.log(team)
         //setChecked(!checked)
         let temp={...picked}
         temp[team.id]=!temp[team.id]
