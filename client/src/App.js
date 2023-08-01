@@ -1,10 +1,11 @@
-import {  Routes, Route } from "react-router-dom";
+import {  NavLink, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {useNavigate} from 'react-router-dom'
 
 import Login from "./Login.js";
 import Signup from "./Signup.js"
 import Picks from "./Picks.js"
+import About from "./About.js";
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
+  const [isLoading,setIsLoading]=useState(false);
 
 
   useEffect(()=>{
@@ -64,16 +66,25 @@ function App() {
     
     
     <div >
+                  <div hidden={!isLoading} className='loader'></div>
+
+              <div name="navBars">
+            <nav className="navLinks">
+                <NavLink  to="/">My Picks</NavLink>
+                <NavLink  to="/">Leader Board</NavLink>
+                <NavLink to="/About">About</NavLink>
+            </nav>
+            </div>
       <div >{email}</div><button onClick={onLogout} >LOGOUT</button>
       <Routes>
-          <Route path="/Logon" element={<Login user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
+          <Route path="/Logon" element={<Login user={user} setIsLoading={setIsLoading} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
             {/* <Login user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/> */}
 
-          <Route path="/Signup" element={<Signup user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
+          <Route path="/Signup" element={<Signup user={user} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
 
-          
+          <Route path="/About" element={<About navigate={navigate}/>} />
 
-        <Route path="/" element={<Picks user={user}/>}/>
+        <Route path="/" element={<Picks  setIsLoading={setIsLoading} user={user}/>}/>
           {/* <Picks/> */}
          
       </Routes>

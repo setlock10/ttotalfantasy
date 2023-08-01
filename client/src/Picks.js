@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import PotCard from "./PotCard.js";
 
-function Picks({user}){
+function Picks({setIsLoading,user}){
     const [errors, setErrors] = useState([])
 
     const [teams,setTeams] = useState([])
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
+    const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
 
     useEffect(() => {
         fetch("./teams")
@@ -20,14 +21,18 @@ function Picks({user}){
                     let temp = {};
 
                     if (data.length!==0){
+                        setHasCreatedPicks(true)
                         for (let i=0; i<data.length;i++){
                             temp[data[i].team_id]=data[i].is_picked
                         }
+                        setIsLoading(false)
                     }
                     else{
+                        setHasCreatedPicks(false);
                         for (let i=1; i<=32;i++){
                             temp[i]=false
                         }
+                       
                     }
 
                     //console.log(temp)
@@ -81,6 +86,38 @@ function Picks({user}){
 
     })
 
+    function onUpdate(){
+        console.log("update")
+        let obj=[]
+
+        for(let i =0;i<32;i++){
+            obj[i]={};
+            obj[i]['team_id']=i+1;
+            if(picked[i+1]){
+                obj[i]['is_picked']=picked[i+1];
+            }
+            else{
+                obj[i]['is_picked']=false
+            }
+           // obj[i]['user_id']=user.id;
+        }
+        console.log(obj)
+
+        Promise.all(obj.map(data=>(
+            
+            fetch(`/picks/${data.team_id}`,{
+                
+                        method:'PATCH',
+                        headers:{'Content-Type': 'application/json'},
+                        body:JSON.stringify(data)
+            })
+            ))).then(results=>{
+                console.log(results)
+            })
+    }
+
+    
+
 
     function onSave(){
         let obj=[]
@@ -105,13 +142,14 @@ function Picks({user}){
             })
             ))).then(results=>{
                 console.log(results)
+                setHasCreatedPicks(true);
             })
     }
 
 
     return(
         <div>
-            <button id="save-picks"  onClick={onSave} >SAVE PICKS</button>
+            <button id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
             {potCards}   
         </div>
     )

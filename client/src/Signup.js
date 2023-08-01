@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import {useNavigate} from 'react-router-dom'
 
-function Signup({ user, setUser, setIsAuthenticated, isAuthenticated}){
+
+function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
 
     const [formData, setFormData] = useState({
         username:'',
@@ -9,7 +9,7 @@ function Signup({ user, setUser, setIsAuthenticated, isAuthenticated}){
     })
     // var logo = document.getElementById("logo")
     const [errors, setErrors] = useState([])
-    const navigate = useNavigate()
+    
 
     const [confirm, setConfirm] = useState("")
 
@@ -37,7 +37,7 @@ function Signup({ user, setUser, setIsAuthenticated, isAuthenticated}){
                 console.log(user)
                 setUser(user)
                 setIsAuthenticated(true)
-                navigate("/")
+                navigate("/About")
                
               })
               

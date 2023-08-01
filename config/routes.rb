@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy"
   post '/picks', to: 'picks#create'
   get '/picks', to: 'picks#index'
+  patch '/picks/:id', to: 'picks#update'
 
 
 

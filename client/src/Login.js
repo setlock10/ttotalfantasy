@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import {useNavigate} from 'react-router-dom'
 
 
-function Login({ user, setUser, setIsAuthenticated, isAuthenticated}){
 
-    const navigate = useNavigate()
+function Login({ navigate,setIsLoading, user, setUser, setIsAuthenticated, isAuthenticated}){
+
+ 
     const [errors, setErrors] = useState([])
 
     const [formData, setFormData] = useState({
@@ -16,6 +16,8 @@ function Login({ user, setUser, setIsAuthenticated, isAuthenticated}){
 
     function onLogin(e){
         e.preventDefault()
+
+
         const user = {
             username,
             password
@@ -39,6 +41,7 @@ function Login({ user, setUser, setIsAuthenticated, isAuthenticated}){
                     setIsAuthenticated(true)
                     setUser(user)
                     // debugger
+                    setIsLoading(true)
 
    
                 })
