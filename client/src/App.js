@@ -19,7 +19,7 @@ function App() {
 
 
   useEffect(()=>{
-    if(user){
+    
 
     fetch('/me')
     .then(res=>res.json())
@@ -40,7 +40,7 @@ function App() {
       
     })
 
-}
+
   },[])
 
   function onLogout(){
