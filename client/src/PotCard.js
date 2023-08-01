@@ -79,7 +79,7 @@ function PotCard({pot,picked, setPicked}){
         //  let temp=[...isCheckedArray];
         //  temp[index]=picked[team.id];
         //  setIsCheckedArray(temp);
-        console.log(picked[team.id])
+        console.log(picked[team.number])
         return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} picked={picked} setPicked ={setPicked} key={team.number}/>
     })
 

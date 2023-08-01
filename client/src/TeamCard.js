@@ -22,7 +22,7 @@ useEffect(()=>{
         console.log(team)
         //setChecked(!checked)
         let temp={...picked}
-        temp[team.id]=!temp[team.id]
+        temp[team.number]=!temp[team.number]
         setPicked(temp)
         
         //console.log(team.selected)
@@ -62,7 +62,7 @@ useEffect(()=>{
     return(
         
                 <tr id={`row${team.pot_8_2023}-${index}`}>
-                    <td><input checked={picked[team.id]} onChange={onCbChange} type="checkbox" id={`cb${team.pot_8_2023}-${index}`}></input></td>
+                    <td><input checked={picked[team.number]} onChange={onCbChange} type="checkbox" id={`cb${team.pot_8_2023}-${index}`}></input></td>
                     <td><img  className="card-image" alt={team.name} src={team.logo}/></td>
                     <td>{team.code}</td>
                     <td>{team.win_total_2023}</td>
