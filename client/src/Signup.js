@@ -18,7 +18,7 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
     const { username, password} = formData
 
     function goToLogon(){
-      navigate('/Logon')
+      navigate('/Signin')
 
     }
 
