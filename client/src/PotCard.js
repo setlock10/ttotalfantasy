@@ -35,10 +35,10 @@ function PotCard({pot,picked, setPicked}){
         //console.log(picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id])
        
 
-        if (picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id]===2){
+        if (picked[pot[0].number]+picked[pot[1].number]+picked[pot[2].number]+picked[pot[3].number]===2){
             disableCBs();
          }
-         else if((picked[pot[0].id]+picked[pot[1].id]+picked[pot[2].id]+picked[pot[3].id]<2)&&(message==="Teams selected for Pot ")){
+         else if((picked[pot[0].number]+picked[pot[1].number]+picked[pot[2].number]+picked[pot[3].number]<2)&&(message==="Teams selected for Pot ")){
             enableCBs();
          }
     },[picked])
@@ -52,7 +52,7 @@ function PotCard({pot,picked, setPicked}){
             let cb = document.getElementById(`cb${pot[i].pot_8_2023}-${i}`)
             let row = document.getElementById(`row${pot[i].pot_8_2023}-${i}`)
  
-            if (!picked[pot[i].id]){
+            if (!picked[pot[i].number]){
                 cb.disabled=true;
                 row.classList.add("outline")
             }
