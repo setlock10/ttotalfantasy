@@ -10,7 +10,7 @@ function Picks({setIsLoading,user}){
     const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
 
     useEffect(() => {
-        setIsLoading(true)
+        
         fetch("./teams")
         .then((r) => r.json())
         .then((data)=>{
@@ -90,6 +90,7 @@ function Picks({setIsLoading,user}){
     })
 
     function onUpdate(){
+        setIsLoading(true)
         console.log("update")
         let obj=[]
 
@@ -116,6 +117,7 @@ function Picks({setIsLoading,user}){
             })
             ))).then(results=>{
                 console.log(results)
+                setIsLoading(false)
             })
     }
 

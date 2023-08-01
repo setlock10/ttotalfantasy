@@ -3,7 +3,7 @@ class PicksController < ApplicationController
     def create
         # byebug
         #pick= Pick.find_by(user_id:  session[:user_id], team_id: pick_params[:team_id])
-        pick= Pick.create(pick_params)
+        pick= Pick.create(user_id:  session[:user_id],team_id: pick_params[:team_id],is_picked: pick_params[:is_picked])
         #if pick
         #     pick=Pick.update(pick_params)
         # else
