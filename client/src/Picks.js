@@ -7,6 +7,7 @@ function Picks({setIsLoading,user}){
     const [teams,setTeams] = useState([])
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
+    const [pickIDs,setPickIDs] = useState({});
     const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
 
     useEffect(() => {
@@ -20,13 +21,25 @@ function Picks({setIsLoading,user}){
                 .then((data)=>{
                    // console.log(data)
                     let temp = {};
+                    let tempIDs={};
+                   // console.log(data)
 
                     if (data.length!==0){
                         setHasCreatedPicks(true)
                         for (let i=0; i<data.length;i++){
-                            temp[data[i].team_id%32]=data[i].is_picked
+                            if (data[i].team_id%32!==0){
+                                temp[data[i].team_id%32]=data[i].is_picked
+                                tempIDs[data[i].team_id%32]=data[i].id
+                            }
+
+                            else{
+                                temp[32]=data[i].is_picked
+                                tempIDs[32]=data[i].id
+
+                            }
                         }
                         setIsLoading(false)
+                        setPickIDs(tempIDs)
                     }
                     else{
                         setHasCreatedPicks(false);
@@ -40,6 +53,7 @@ function Picks({setIsLoading,user}){
 
                     //console.log(temp)
                     setPicked(temp)
+                    
                 })
         })
     },[]);
@@ -109,7 +123,7 @@ function Picks({setIsLoading,user}){
 
         Promise.all(obj.map(data=>(
             
-            fetch(`/picks/${data.team_id}`,{
+            fetch(`/picks/${pickIDs[data.team_id]}`,{
                 
                         method:'PATCH',
                         headers:{'Content-Type': 'application/json'},

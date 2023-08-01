@@ -15,8 +15,8 @@ class PicksController < ApplicationController
 
     def update
         
-        pick =Pick.find_by(user_id:  session[:user_id], team_id: pick_params[:team_id])
-       # byebug
+        pick =Pick.find_by(id: pick_params[:id])
+        #byebug
         pick.update(is_picked: pick_params[:is_picked])
         render json: pick, status: :ok
 
@@ -30,6 +30,8 @@ class PicksController < ApplicationController
             render json: {error: "Picks Do Not Exist"}, status: :no_content
         end
     end
+    
+
 
 
     private

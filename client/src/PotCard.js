@@ -79,13 +79,13 @@ function PotCard({pot,picked, setPicked}){
         //  let temp=[...isCheckedArray];
         //  temp[index]=picked[team.id];
         //  setIsCheckedArray(temp);
-        console.log(team)
-        console.log(picked[team.number])
+        //console.log(team)
+        //console.log(picked[team.number])
         return <TeamCard team={team} index={index} setNumChecked={setNumChecked} numChecked={numChecked} isCheckedArray={isCheckedArray} setIsCheckedArray={setIsCheckedArray} picked={picked} setPicked ={setPicked} key={team.number}/>
     })
 
     function onClickHeader(code){
-        console.log(code)
+        //console.log(code)
         let doc=document.getElementById(`doc${pot[0].pot_8_2023}`)
         doc.hidden=false;
         doc.innerText="Testing Testing"
