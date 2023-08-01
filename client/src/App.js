@@ -50,7 +50,7 @@ function App() {
   .then(()=>{
       setIsAuthenticated(false)
       setUser(null)
-      navigate("/Logon")
+      navigate("/Signin")
       
     //   debuggerSess
       if(user)
@@ -78,7 +78,7 @@ function App() {
             </div>
       <div >{email}</div><button onClick={onLogout} >LOGOUT</button>
       <Routes>
-          <Route path="/Logon" element={<Login user={user} setIsLoading={setIsLoading} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
+          <Route path="/Signin" element={<Login user={user} setIsLoading={setIsLoading} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
             {/* <Login user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/> */}
 
           <Route path="/Signup" element={<Signup user={user} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
