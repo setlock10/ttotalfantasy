@@ -10,6 +10,7 @@ function Picks({setIsLoading,user}){
     const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
 
     useEffect(() => {
+        setIsLoading(true)
         fetch("./teams")
         .then((r) => r.json())
         .then((data)=>{
@@ -29,9 +30,11 @@ function Picks({setIsLoading,user}){
                     }
                     else{
                         setHasCreatedPicks(false);
+                        setIsLoading(false);
                         for (let i=1; i<=32;i++){
                             temp[i]=false
                         }
+
                        
                     }
 

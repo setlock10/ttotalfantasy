@@ -1,8 +1,9 @@
 
 
-function About ({navigate}){
+function About ({setIsLoading, navigate}){
 
     function onClick(){
+        setIsLoading(true)
         navigate('/');
 
     }
@@ -19,7 +20,7 @@ function About ({navigate}){
             <p> 5 points are awarded for making the playoffs</p>
 
             <p>5 points for each playoff win</p>
-            
+
             <p>An additional 5 points for winning the superbowl</p>
             
             

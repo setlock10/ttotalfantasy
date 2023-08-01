@@ -82,7 +82,7 @@ function App() {
 
           <Route path="/Signup" element={<Signup user={user} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
 
-          <Route path="/About" element={<About navigate={navigate}/>} />
+          <Route path="/About" element={<About setIsLoading={setIsLoading} navigate={navigate}/>} />
 
         <Route path="/" element={<Picks  setIsLoading={setIsLoading} user={user}/>}/>
           {/* <Picks/> */}
