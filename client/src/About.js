@@ -13,7 +13,7 @@ function About ({setIsLoading, navigate}){
 
             <p>Teams are sorted by their expected season win totals and divided into 4 pots. <p/>
                 
-            <p>You must draft 2 teams from each pot plus one wildcard team from any pot.</p>
+            <p>You must draft 2 teams from each pot.</p>
 
             <p>One point is awarded for each regular season win</p>
 
