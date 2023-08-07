@@ -13,7 +13,11 @@ class SessionsController < ApplicationController
 
 
     def destroy
-        session.delete( session[:user_id])
+        #byebug
+       #sess = session.find_by(user_id: session[:user_id])
+        #session.delete :user_id
+        session.destroy
+        #byebug
         head :no_content
     end
 

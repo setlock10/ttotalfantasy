@@ -19,7 +19,8 @@ function App() {
 
 
   useEffect(()=>{
-    
+    console.log(isAuthenticated)
+    if (isAuthenticated){
 
     fetch('/me')
     .then(res=>res.json())
@@ -39,7 +40,7 @@ function App() {
       }
       
     })
-
+}
 
   },[])
 
@@ -47,10 +48,12 @@ function App() {
     fetch('/logout',{
       method:'DELETE'
   })
-  .then(()=>{
+  
+  .then((r)=>{
+    console.log(r)
       setIsAuthenticated(false)
       setUser(null)
-      //navigate("/Signin")
+      navigate("/Signin")
       
     //   debuggerSess
       if(user)
