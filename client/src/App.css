@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- width: 480px;
+ width: 360px;
 }
 
 .App-logo {
@@ -92,7 +92,7 @@ div{
 }
 
 #table{
-  width:480px;
+  width:360px;
 }
 
 .card-image{
