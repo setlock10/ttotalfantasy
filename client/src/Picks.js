@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
 import PotCard from "./PotCard.js";
 
-function Picks({setIsLoading,user}){
+function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     const [errors, setErrors] = useState([])
 
     const [teams,setTeams] = useState([])
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
     const [pickIDs,setPickIDs] = useState({});
-    const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
-
+ 
     useEffect(() => {
         
         fetch("./teams")

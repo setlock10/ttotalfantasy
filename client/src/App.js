@@ -16,6 +16,7 @@ function App() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [isLoading,setIsLoading]=useState(false);
+  const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
 
 
   useEffect(()=>{
@@ -35,12 +36,15 @@ function App() {
         navigate('/')
       }
       else{
-        console.log("go to logon")
+        //console.log("go to logon")
         navigate('/Signup')
       }
       
     })
-}
+  }
+  else{
+    navigate('/Signin')
+  }
 
   },[])
 
@@ -54,6 +58,7 @@ function App() {
       setIsAuthenticated(false)
       setUser(null)
       navigate("/Signin")
+      setHasCreatedPicks(false)
       
     //   debuggerSess
       if(user)
@@ -88,7 +93,7 @@ function App() {
 
           <Route path="/About" element={<About setIsLoading={setIsLoading} navigate={navigate}/>} />
 
-        <Route path="/" element={<Picks  setIsLoading={setIsLoading} user={user}/>}/>
+        <Route path="/" element={<Picks hasCreatedPicks={hasCreatedPicks} setHasCreatedPicks={setHasCreatedPicks} setIsLoading={setIsLoading} user={user}/>}/>
           {/* <Picks/> */}
          
       </Routes>
