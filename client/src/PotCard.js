@@ -114,7 +114,7 @@ function PotCard({pot,picked, setPicked}){
 
      return(
         <div>{message} {pot[0].pot_8_2023}
-        <table>
+        <table id="table">
            <tr>
                 <th>Pot {pot[0].pot_8_2023} </th>
                 <th> </th>
