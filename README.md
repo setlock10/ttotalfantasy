@@ -33,3 +33,5 @@ heroku run rake db:seed
 heroku run rails db:seed
 
 heroku run rails c
+
+heroku login
