@@ -167,7 +167,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
 
     return(
         <div >
-            <button id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
+            <button className="button" id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
             {potCards}   
         </div>
     )

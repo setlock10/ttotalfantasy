@@ -14,11 +14,11 @@
   }
 }
 td, th {
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd;
   text-align: left;
   padding: 0px;
   height: 25px;
-  font-size: 9pt;
+  font-size: 9pt; */
 
 }
 
@@ -93,6 +93,10 @@ div{
 
 #table{
   width:360px;
+  border: 1px solid white;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px lightgray;
+
 }
 
 .card-image{
@@ -115,3 +119,23 @@ div{
     transform: rotate(360deg);
   }
 }
+
+.inputBox{
+  width:80%;
+  height: 50px;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  }
+  .button{
+    height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    /* font-family:"Segoe UI"; */
+    width: 100px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    opacity: 75%;
+    font-size: medium;
+   
+  }
+  
