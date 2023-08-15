@@ -78,10 +78,10 @@ function App() {
                   <div hidden={!isLoading} className='loader'></div>
 
               <div name="navBars">
-            <nav className="navLinks">
+            <nav className="navLinks"><span>
                 <NavLink  to="/">My Picks</NavLink>
                 <NavLink  to="/">Leader Board</NavLink>
-                <NavLink to="/About">About</NavLink>
+                <NavLink to="/About">About</NavLink></span>
             </nav>
             </div>
       <div >{email}</div><button className="button" onClick={onLogout} >LOGOUT</button>
