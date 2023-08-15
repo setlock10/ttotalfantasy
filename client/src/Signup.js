@@ -5,7 +5,9 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
 
     const [formData, setFormData] = useState({
         username:'',
-        password:''
+        password:'',
+        first_name:'',
+        last_name:''
     })
     // var logo = document.getElementById("logo")
     const [errors, setErrors] = useState([])
@@ -15,7 +17,7 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
 
     
 
-    const { username, password} = formData
+    const { username, password,first_name,last_name} = formData
 
     function goToLogon(){
       navigate('/Signin')
@@ -67,8 +69,14 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
           <h1 className='form-title'>Sign Up</h1>
             <div className="loginBackground" ></div>
             <form className="loginForm"  onSubmit={onSignup}>
-                <div>
+            <div>
                     <input className="inputBox" type='text' name='username' placeholder="Email Address" value={username} onChange={handleChange} />
+                </div>
+                <div>
+                    <input className="inputBox" type='text' name='first_name' placeholder="First Name" value={first_name} onChange={handleChange} />
+                </div>
+                <div>
+                    <input className="inputBox" type='text' name='last_name' placeholder="Last Name" value={last_name} onChange={handleChange} />
                 </div>
                 <div>
                 <input className="inputBox"  type='password' name='password' placeholder="Password" value={password} onChange={handleChange} />

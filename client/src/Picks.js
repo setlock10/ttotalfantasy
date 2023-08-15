@@ -8,6 +8,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
     const [pickIDs,setPickIDs] = useState({});
+    
  
     useEffect(() => {
         
@@ -106,7 +107,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
         setIsLoading(true)
         console.log("update")
         let obj=[]
-
+       
         for(let i =0;i<32;i++){
             obj[i]={};
             obj[i]['team_id']=i+1;
@@ -131,6 +132,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
             ))).then(results=>{
                 console.log(results)
                 setIsLoading(false)
+                
             })
     }
 
@@ -138,6 +140,9 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
 
 
     function onSave(){
+        
+
+
         let obj=[]
 
         for(let i =0;i<32;i++){
@@ -161,12 +166,13 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
             ))).then(results=>{
                 console.log(results)
                 setHasCreatedPicks(true);
+                
             })
     }
 
 
     return(
-        <div >
+        <div ><div hidden="true" id="alert">Picks Successfully Saved</div>
             <button className="button" id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
             {potCards}   
         </div>

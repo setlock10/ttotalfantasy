@@ -115,7 +115,7 @@ function PotCard({pot,picked, setPicked}){
 
 
      return(
-        <div id="message" color="red" >
+        <div id="message" >
             <font color={fontColor}>{message} {pot[0].pot_8_2023}</font>
         <table id="table">
            <tr>
