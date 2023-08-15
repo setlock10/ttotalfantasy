@@ -7,7 +7,7 @@ function PotCard({pot,picked, setPicked}){
     const [message, setMessage] = useState("Please select two teams from Pot ");
     const [numChecked,setNumChecked] = useState(0);
     const [isCheckedArray,setIsCheckedArray] = useState(new Array(pot.length).fill(false))
-    
+    const [fontColor,setFontColor] = useState("red")
  //useEffect(()=>{
 
 //     console.log(isCheckedArray)
@@ -46,6 +46,7 @@ function PotCard({pot,picked, setPicked}){
     function disableCBs(){
 
         setMessage("Teams selected for Pot ")
+        setFontColor("black")
  
 
         for (let i=0;i<pot.length;i++){
@@ -60,6 +61,7 @@ function PotCard({pot,picked, setPicked}){
 
     }
     function enableCBs(){
+        setFontColor("red")
         setMessage("Please select two teams from Pot ")
         for (let i=0;i<pot.length;i++){
             let cb = document.getElementById(`cb${pot[i].pot_8_2023}-${i}`)
@@ -113,7 +115,8 @@ function PotCard({pot,picked, setPicked}){
 
 
      return(
-        <div id="message">{message} {pot[0].pot_8_2023}
+        <div id="message" color="red" >
+            <font color={fontColor}>{message} {pot[0].pot_8_2023}</font>
         <table id="table">
            <tr>
                 <th>Pot {pot[0].pot_8_2023} </th>
