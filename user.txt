@@ -1,0 +1,20 @@
+rails aborted!
+Don't know how to build task 'User.all' (See the list of available tasks with `rails --tasks`)
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/task_manager.rb:59:in `[]'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:159:in `invoke_task'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:116:in `block (2 levels) in top_level'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:116:in `each'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:116:in `block in top_level'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:125:in `run_with_threads'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:110:in `top_level'
+/app/vendor/bundle/ruby/2.7.0/gems/railties-7.0.6/lib/rails/commands/rake/rake_command.rb:24:in `block (2 levels) in perform'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/application.rb:186:in `standard_exception_handling'
+/app/vendor/bundle/ruby/2.7.0/gems/railties-7.0.6/lib/rails/commands/rake/rake_command.rb:24:in `block in perform'
+/app/vendor/bundle/ruby/2.7.0/gems/rake-13.0.6/lib/rake/rake_module.rb:59:in `with_application'
+/app/vendor/bundle/ruby/2.7.0/gems/railties-7.0.6/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/app/vendor/bundle/ruby/2.7.0/gems/railties-7.0.6/lib/rails/command.rb:51:in `invoke'
+/app/vendor/bundle/ruby/2.7.0/gems/railties-7.0.6/lib/rails/commands.rb:18:in `<main>'
+/app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/app/bin/rails:4:in `<main>'
+(See full trace by running task with --trace)

@@ -26,7 +26,13 @@ Things you may want to cover:
 sudo service postgresql start
 rails s
 npm start --prefix client
+heroku login
 git push heroku main
+
+** to shut down rails c on heroku:
+heroku ps
+then
+heroku ps:stop run.(number)
 
 
 heroku run rake db:seed
