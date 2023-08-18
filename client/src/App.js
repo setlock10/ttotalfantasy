@@ -79,10 +79,12 @@ function App() {
             <nav className="navLinks"><span>
                 <NavLink  to="/">My Picks</NavLink>
                 <NavLink  to="/">Leader Board</NavLink>
-                <NavLink to="/About">About</NavLink></span>
+                <NavLink to="/About">About</NavLink>
+                <a onClick={onLogout}>Logout</a>
+                </span>
             </nav>
             </div>
-      <div >{email}</div><button className="button" onClick={onLogout} >LOGOUT</button>
+      <div >{email}</div> 
       <Routes>
           <Route path="/Signin" element={<Login user={user} setIsLoading={setIsLoading} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
             {/* <Login user={user} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/> */}

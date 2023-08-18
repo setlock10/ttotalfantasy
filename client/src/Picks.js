@@ -172,7 +172,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
 
 
     return(
-        <div ><div hidden="true" id="alert">Picks Successfully Saved</div>
+        <div style={{'position': "relative","top":"100px"}}><div hidden="true" id="alert">Picks Successfully Saved</div>
             <button className="button" id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
             {potCards}   
         </div>
