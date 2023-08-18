@@ -8,7 +8,7 @@ function About ({setIsLoading, navigate}){
 
     }
     return(
-        <div>
+        <div style={{'position': "relative","top":"100px"}}>
             <p>Welcome to Team Total Fantasy</p>
 
             <p>Teams are sorted by their expected season win totals and divided into 4 pots. <p/>
