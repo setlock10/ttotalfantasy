@@ -11,7 +11,9 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     
  
     useEffect(() => {
-        
+        console.log(user)
+        if(user)
+        {
         fetch("./teams")
         .then((r) => r.json())
         .then((data)=>{
@@ -56,6 +58,8 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
                     
                 })
         })
+
+        }
     },[]);
 
           

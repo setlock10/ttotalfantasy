@@ -51,7 +51,7 @@ function App() {
   })
   
   .then((r)=>{
-    console.log(r)
+    //console.log(r)
       setIsAuthenticated(false)
       setUser(null)
       navigate("/Signin")

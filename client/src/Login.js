@@ -64,7 +64,7 @@ function Login({ navigate,setIsLoading, user, setUser, setIsAuthenticated, isAut
  
 
     return(
-        <div className="login" >
+        <div style={{'position': "relative","top":"100px"}}className="login" >
             <h1 className='form-title'>Sign In</h1>
             <div className="loginBackground" ></div>
             <form className="loginForm"  onSubmit={onLogin}>

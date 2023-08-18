@@ -65,7 +65,7 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
       }
   
      return(
-        <div className="login" >
+        <div style={{'position': "relative","top":"100px"}}className="login" >
           <h1 className='form-title'>Sign Up</h1>
             <div className="loginBackground" ></div>
             <form className="loginForm"  onSubmit={onSignup}>
