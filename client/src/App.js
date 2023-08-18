@@ -21,7 +21,7 @@ function App() {
 
   useEffect(()=>{
     console.log(isAuthenticated)
-    if (isAuthenticated){
+   
 
     fetch('/me')
     .then(res=>res.json())
@@ -41,10 +41,7 @@ function App() {
       }
       
     })
-  }
-  else{
-    navigate('/Signin')
-  }
+  
 
   },[])
 
