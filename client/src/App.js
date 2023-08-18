@@ -75,6 +75,7 @@ function App() {
     
     
     <div >
+      <div id="header">Team Total Fantasy</div>
                   <div hidden={!isLoading} className='loader'></div>
 
               <div name="navBars">

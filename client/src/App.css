@@ -23,18 +23,36 @@ td, th {
   font-size: 9pt; */
  
 }
+#header{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  margin:auto;
+  position: fixed;
+  top:0px;
+  height:50px;
+  width:400px;
+  background-color:red;
+  z-index: 1;
+  text-align: center;
+  color:white;
+  /* src:url(flyeaglesfly.ttf); */
+}
 
 .underline{
   text-decoration: underline;
+  
 }
 
 .navLinks{
-   /* position:fixed;  */
-  top:25px;
+   position:fixed; 
+   background-color:red;
+  top:50px;
+ 
+  margin:auto;
   /* background: rgb(0, 0, 29); */
   text-align: center;
   left:0%;
-  width: 360px;
+  width: 400px;
   /* z-index: 0; */
 
 
