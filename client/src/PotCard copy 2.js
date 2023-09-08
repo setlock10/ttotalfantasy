@@ -93,13 +93,7 @@ function PotCard({pot,picked, setPicked}){
         doc.innerText="Testing Testing"
         switch(code){
             case "Win_Total":
-                doc.innerText="NFL season win totals are a gauge for how many wins a team is expected to achieve by the end of the season.  These numbers are set by sports books prior to the season starting and are for OVER/UNDER wagers. ";
-                break;
-            case "Over_Juice":
-                doc.innerText="This the expected probability of going over the win total.  The larger the negative number, the more likely a team is to go over their season win total. ";
-                break;
-            case "ELO":
-                    doc.innerText="These are the preseason team rankings from 538 sports. ";
+                doc.innerText="NFL season win totals are similar to a traditional OVER/UNDER bet except instead of betting on a single game, you're betting on all 16 of them at once. For instance, a traditional totals bet involves you deciding if the total number of points scored by both teams will go OVER or UNDER the oddsmaker's set number. "
                 break;
         default:
                 doc.innerText=" "

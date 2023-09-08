@@ -81,7 +81,7 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
                 <div>
                 <input className="inputBox"  type='password' name='password' placeholder="Password" value={password} onChange={handleChange} />
                 </div>
-                <input className="inputBox"  type='password' name='confirm' placeholder="Confirm Password" value={confirm} onChange={handleChangeConfirm} />
+                <input hidden={true} className="inputBox"  type='password' name='confirm' placeholder="Confirm Password" value={confirm} onChange={handleChangeConfirm} />
                 <div>
 
                 </div>

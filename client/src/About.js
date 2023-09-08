@@ -29,7 +29,7 @@ function About ({setIsLoading, navigate}){
 </ul>
             <p>Inquiries: setlockLLC@gmail.com</p>
             
-            <p>Like this project and want to support it? Venmo: @SetlockProjects</p>
+            <p>Like this project and want to support it? Venmo: @Jay-Setlock</p>
 
             
             <button onClick={onClick}>Start Picking!</button>

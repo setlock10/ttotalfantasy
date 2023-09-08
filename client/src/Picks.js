@@ -8,7 +8,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
     const [pickIDs,setPickIDs] = useState({});
-    
+    const [isAlert,setAlert] = useState(true);
  
     useEffect(() => {
         console.log(user)
@@ -136,8 +136,14 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
             ))).then(results=>{
                 console.log(results)
                 setIsLoading(false)
-                
+                setAlert(false)
+                setTimeout(onAlert,2000)
             })
+    }
+
+    function onAlert(){
+        setAlert(true)
+
     }
 
     
@@ -176,7 +182,8 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
 
 
     return(
-        <div style={{'position': "relative","top":"100px"}}><div hidden="true" id="alert">Picks Successfully Saved</div>
+        <div style={{'position': "absolute","top":"100px"}}>
+            <div  hidden={isAlert} id="alert">Picks Successfully Saved</div>
             <button className="button" id="save-picks"  onClick={(hasCreatedPicks)?onUpdate:onSave} >SAVE PICKS</button>
             {potCards}   
         </div>
