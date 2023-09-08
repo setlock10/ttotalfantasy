@@ -86,7 +86,7 @@ function Signup({navigate, user, setUser, setIsAuthenticated, isAuthenticated}){
 
                 </div>
                 <input className="button"  type='submit' value='SIGN UP' /> 
-                <input onClick={goToLogon} className="button" type="button"  value='SIGN IN INSTEAD' /> 
+                <input onClick={goToLogon} className="button" type="button"  value='SIGN IN' /> 
             </form>       
         </div>
     )
