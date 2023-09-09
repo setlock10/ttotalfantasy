@@ -41,3 +41,8 @@ heroku run rails db:seed
 heroku run rails c
 
 heroku login
+
+BACKUP
+heroku run rails runner 'full script pasted here' -a my-app-name > data.txt
+
+ heroku run rails runner 'pp User.all.to_json '  -a ttotalfantasy > data.txt
