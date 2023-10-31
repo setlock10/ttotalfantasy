@@ -1,0 +1,3586 @@
+[
+    {
+      "id": 193,
+      "team_id": 66,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.684Z",
+      "updated_at": "2023-08-01T20:39:50.684Z"
+    },
+    {
+      "id": 195,
+      "team_id": 69,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.721Z",
+      "updated_at": "2023-08-01T20:39:50.721Z"
+    },
+    {
+      "id": 196,
+      "team_id": 70,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.747Z",
+      "updated_at": "2023-08-01T20:39:50.747Z"
+    },
+    {
+      "id": 197,
+      "team_id": 65,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.750Z",
+      "updated_at": "2023-08-01T20:39:50.750Z"
+    },
+    {
+      "id": 198,
+      "team_id": 71,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.776Z",
+      "updated_at": "2023-08-01T20:39:50.776Z"
+    },
+    {
+      "id": 199,
+      "team_id": 72,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.790Z",
+      "updated_at": "2023-08-01T20:39:50.790Z"
+    },
+    {
+      "id": 201,
+      "team_id": 73,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.798Z",
+      "updated_at": "2023-08-01T20:39:50.798Z"
+    },
+    {
+      "id": 202,
+      "team_id": 74,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.826Z",
+      "updated_at": "2023-08-01T20:39:50.826Z"
+    },
+    {
+      "id": 203,
+      "team_id": 75,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.827Z",
+      "updated_at": "2023-08-01T20:39:50.827Z"
+    },
+    {
+      "id": 204,
+      "team_id": 76,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.856Z",
+      "updated_at": "2023-08-01T20:39:50.856Z"
+    },
+    {
+      "id": 205,
+      "team_id": 77,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.865Z",
+      "updated_at": "2023-08-01T20:39:50.865Z"
+    },
+    {
+      "id": 206,
+      "team_id": 79,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.874Z",
+      "updated_at": "2023-08-01T20:39:50.874Z"
+    },
+    {
+      "id": 207,
+      "team_id": 78,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.876Z",
+      "updated_at": "2023-08-01T20:39:50.876Z"
+    },
+    {
+      "id": 208,
+      "team_id": 80,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.897Z",
+      "updated_at": "2023-08-01T20:39:50.897Z"
+    },
+    {
+      "id": 209,
+      "team_id": 81,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.903Z",
+      "updated_at": "2023-08-01T20:39:50.903Z"
+    },
+    {
+      "id": 210,
+      "team_id": 82,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.925Z",
+      "updated_at": "2023-08-01T20:39:50.925Z"
+    },
+    {
+      "id": 211,
+      "team_id": 83,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.927Z",
+      "updated_at": "2023-08-01T20:39:50.927Z"
+    },
+    {
+      "id": 212,
+      "team_id": 84,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.948Z",
+      "updated_at": "2023-08-01T20:39:50.948Z"
+    },
+    {
+      "id": 213,
+      "team_id": 85,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.954Z",
+      "updated_at": "2023-08-01T20:39:50.954Z"
+    },
+    {
+      "id": 214,
+      "team_id": 87,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.979Z",
+      "updated_at": "2023-08-01T20:39:50.979Z"
+    },
+    {
+      "id": 215,
+      "team_id": 86,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.980Z",
+      "updated_at": "2023-08-01T20:39:50.980Z"
+    },
+    {
+      "id": 216,
+      "team_id": 89,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:51.002Z",
+      "updated_at": "2023-08-01T20:39:51.002Z"
+    },
+    {
+      "id": 217,
+      "team_id": 88,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:51.009Z",
+      "updated_at": "2023-08-01T20:39:51.009Z"
+    },
+    {
+      "id": 218,
+      "team_id": 90,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:51.019Z",
+      "updated_at": "2023-08-01T20:39:51.019Z"
+    },
+    {
+      "id": 219,
+      "team_id": 91,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:51.022Z",
+      "updated_at": "2023-08-01T20:39:51.022Z"
+    },
+    {
+      "id": 220,
+      "team_id": 92,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:51.056Z",
+      "updated_at": "2023-08-01T20:39:51.056Z"
+    },
+    {
+      "id": 221,
+      "team_id": 93,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:51.060Z",
+      "updated_at": "2023-08-01T20:39:51.060Z"
+    },
+    {
+      "id": 222,
+      "team_id": 94,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:51.067Z",
+      "updated_at": "2023-08-01T20:39:51.067Z"
+    },
+    {
+      "id": 223,
+      "team_id": 95,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:51.085Z",
+      "updated_at": "2023-08-01T20:39:51.085Z"
+    },
+    {
+      "id": 224,
+      "team_id": 96,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:51.093Z",
+      "updated_at": "2023-08-01T20:39:51.093Z"
+    },
+    {
+      "id": 200,
+      "team_id": 68,
+      "user_id": 17,
+      "is_picked": false,
+      "created_at": "2023-08-01T20:39:50.797Z",
+      "updated_at": "2023-08-01T20:40:11.574Z"
+    },
+    {
+      "id": 194,
+      "team_id": 67,
+      "user_id": 17,
+      "is_picked": true,
+      "created_at": "2023-08-01T20:39:50.692Z",
+      "updated_at": "2023-08-01T20:40:11.586Z"
+    },
+    {
+      "id": 225,
+      "team_id": 66,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.348Z",
+      "updated_at": "2023-08-01T21:13:48.348Z"
+    },
+    {
+      "id": 226,
+      "team_id": 70,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.367Z",
+      "updated_at": "2023-08-01T21:13:48.367Z"
+    },
+    {
+      "id": 227,
+      "team_id": 71,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.409Z",
+      "updated_at": "2023-08-01T21:13:48.409Z"
+    },
+    {
+      "id": 228,
+      "team_id": 65,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.414Z",
+      "updated_at": "2023-08-01T21:13:48.414Z"
+    },
+    {
+      "id": 229,
+      "team_id": 72,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.430Z",
+      "updated_at": "2023-08-01T21:13:48.430Z"
+    },
+    {
+      "id": 230,
+      "team_id": 68,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.432Z",
+      "updated_at": "2023-08-01T21:13:48.432Z"
+    },
+    {
+      "id": 231,
+      "team_id": 69,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.436Z",
+      "updated_at": "2023-08-01T21:13:48.436Z"
+    },
+    {
+      "id": 232,
+      "team_id": 67,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.438Z",
+      "updated_at": "2023-08-01T21:13:48.438Z"
+    },
+    {
+      "id": 233,
+      "team_id": 73,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.469Z",
+      "updated_at": "2023-08-01T21:13:48.469Z"
+    },
+    {
+      "id": 234,
+      "team_id": 74,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.471Z",
+      "updated_at": "2023-08-01T21:13:48.471Z"
+    },
+    {
+      "id": 235,
+      "team_id": 75,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.490Z",
+      "updated_at": "2023-08-01T21:13:48.490Z"
+    },
+    {
+      "id": 236,
+      "team_id": 77,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.497Z",
+      "updated_at": "2023-08-01T21:13:48.497Z"
+    },
+    {
+      "id": 237,
+      "team_id": 78,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.499Z",
+      "updated_at": "2023-08-01T21:13:48.499Z"
+    },
+    {
+      "id": 238,
+      "team_id": 76,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.500Z",
+      "updated_at": "2023-08-01T21:13:48.500Z"
+    },
+    {
+      "id": 239,
+      "team_id": 79,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.529Z",
+      "updated_at": "2023-08-01T21:13:48.529Z"
+    },
+    {
+      "id": 240,
+      "team_id": 80,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.543Z",
+      "updated_at": "2023-08-01T21:13:48.543Z"
+    },
+    {
+      "id": 241,
+      "team_id": 81,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.544Z",
+      "updated_at": "2023-08-01T21:13:48.544Z"
+    },
+    {
+      "id": 242,
+      "team_id": 82,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.557Z",
+      "updated_at": "2023-08-01T21:13:48.557Z"
+    },
+    {
+      "id": 243,
+      "team_id": 83,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.557Z",
+      "updated_at": "2023-08-01T21:13:48.557Z"
+    },
+    {
+      "id": 244,
+      "team_id": 84,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.559Z",
+      "updated_at": "2023-08-01T21:13:48.559Z"
+    },
+    {
+      "id": 245,
+      "team_id": 85,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.582Z",
+      "updated_at": "2023-08-01T21:13:48.582Z"
+    },
+    {
+      "id": 246,
+      "team_id": 86,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.594Z",
+      "updated_at": "2023-08-01T21:13:48.594Z"
+    },
+    {
+      "id": 247,
+      "team_id": 88,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.618Z",
+      "updated_at": "2023-08-01T21:13:48.618Z"
+    },
+    {
+      "id": 248,
+      "team_id": 87,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.620Z",
+      "updated_at": "2023-08-01T21:13:48.620Z"
+    },
+    {
+      "id": 249,
+      "team_id": 90,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.622Z",
+      "updated_at": "2023-08-01T21:13:48.622Z"
+    },
+    {
+      "id": 250,
+      "team_id": 89,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.623Z",
+      "updated_at": "2023-08-01T21:13:48.623Z"
+    },
+    {
+      "id": 251,
+      "team_id": 91,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.642Z",
+      "updated_at": "2023-08-01T21:13:48.642Z"
+    },
+    {
+      "id": 252,
+      "team_id": 93,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.668Z",
+      "updated_at": "2023-08-01T21:13:48.668Z"
+    },
+    {
+      "id": 253,
+      "team_id": 92,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.672Z",
+      "updated_at": "2023-08-01T21:13:48.672Z"
+    },
+    {
+      "id": 254,
+      "team_id": 94,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.680Z",
+      "updated_at": "2023-08-01T21:13:48.680Z"
+    },
+    {
+      "id": 255,
+      "team_id": 96,
+      "user_id": 18,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:13:48.683Z",
+      "updated_at": "2023-08-01T21:13:48.683Z"
+    },
+    {
+      "id": 256,
+      "team_id": 95,
+      "user_id": 18,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:13:48.686Z",
+      "updated_at": "2023-08-01T21:13:48.686Z"
+    },
+    {
+      "id": 257,
+      "team_id": 65,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.122Z",
+      "updated_at": "2023-08-01T21:23:45.122Z"
+    },
+    {
+      "id": 258,
+      "team_id": 69,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.150Z",
+      "updated_at": "2023-08-01T21:23:45.150Z"
+    },
+    {
+      "id": 259,
+      "team_id": 71,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.239Z",
+      "updated_at": "2023-08-01T21:23:45.239Z"
+    },
+    {
+      "id": 260,
+      "team_id": 67,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.306Z",
+      "updated_at": "2023-08-01T21:23:45.306Z"
+    },
+    {
+      "id": 261,
+      "team_id": 70,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.306Z",
+      "updated_at": "2023-08-01T21:23:45.306Z"
+    },
+    {
+      "id": 262,
+      "team_id": 72,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.317Z",
+      "updated_at": "2023-08-01T21:23:45.317Z"
+    },
+    {
+      "id": 263,
+      "team_id": 66,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.333Z",
+      "updated_at": "2023-08-01T21:23:45.333Z"
+    },
+    {
+      "id": 264,
+      "team_id": 68,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.369Z",
+      "updated_at": "2023-08-01T21:23:45.369Z"
+    },
+    {
+      "id": 265,
+      "team_id": 73,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.707Z",
+      "updated_at": "2023-08-01T21:23:45.707Z"
+    },
+    {
+      "id": 266,
+      "team_id": 75,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.835Z",
+      "updated_at": "2023-08-01T21:23:45.835Z"
+    },
+    {
+      "id": 267,
+      "team_id": 77,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.862Z",
+      "updated_at": "2023-08-01T21:23:45.862Z"
+    },
+    {
+      "id": 268,
+      "team_id": 78,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:45.863Z",
+      "updated_at": "2023-08-01T21:23:45.863Z"
+    },
+    {
+      "id": 269,
+      "team_id": 74,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.923Z",
+      "updated_at": "2023-08-01T21:23:45.923Z"
+    },
+    {
+      "id": 270,
+      "team_id": 76,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:45.959Z",
+      "updated_at": "2023-08-01T21:23:45.959Z"
+    },
+    {
+      "id": 271,
+      "team_id": 81,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.112Z",
+      "updated_at": "2023-08-01T21:23:46.112Z"
+    },
+    {
+      "id": 272,
+      "team_id": 80,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.113Z",
+      "updated_at": "2023-08-01T21:23:46.113Z"
+    },
+    {
+      "id": 273,
+      "team_id": 82,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.125Z",
+      "updated_at": "2023-08-01T21:23:46.125Z"
+    },
+    {
+      "id": 274,
+      "team_id": 79,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.183Z",
+      "updated_at": "2023-08-01T21:23:46.183Z"
+    },
+    {
+      "id": 275,
+      "team_id": 83,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.249Z",
+      "updated_at": "2023-08-01T21:23:46.249Z"
+    },
+    {
+      "id": 276,
+      "team_id": 86,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.346Z",
+      "updated_at": "2023-08-01T21:23:46.346Z"
+    },
+    {
+      "id": 277,
+      "team_id": 87,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.394Z",
+      "updated_at": "2023-08-01T21:23:46.394Z"
+    },
+    {
+      "id": 278,
+      "team_id": 85,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.405Z",
+      "updated_at": "2023-08-01T21:23:46.405Z"
+    },
+    {
+      "id": 279,
+      "team_id": 84,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.417Z",
+      "updated_at": "2023-08-01T21:23:46.417Z"
+    },
+    {
+      "id": 280,
+      "team_id": 88,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.473Z",
+      "updated_at": "2023-08-01T21:23:46.473Z"
+    },
+    {
+      "id": 281,
+      "team_id": 89,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.597Z",
+      "updated_at": "2023-08-01T21:23:46.597Z"
+    },
+    {
+      "id": 282,
+      "team_id": 90,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.630Z",
+      "updated_at": "2023-08-01T21:23:46.630Z"
+    },
+    {
+      "id": 283,
+      "team_id": 91,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.656Z",
+      "updated_at": "2023-08-01T21:23:46.656Z"
+    },
+    {
+      "id": 284,
+      "team_id": 94,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.704Z",
+      "updated_at": "2023-08-01T21:23:46.704Z"
+    },
+    {
+      "id": 285,
+      "team_id": 93,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.735Z",
+      "updated_at": "2023-08-01T21:23:46.735Z"
+    },
+    {
+      "id": 286,
+      "team_id": 92,
+      "user_id": 19,
+      "is_picked": false,
+      "created_at": "2023-08-01T21:23:46.741Z",
+      "updated_at": "2023-08-01T21:23:46.741Z"
+    },
+    {
+      "id": 287,
+      "team_id": 96,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.806Z",
+      "updated_at": "2023-08-01T21:23:46.806Z"
+    },
+    {
+      "id": 288,
+      "team_id": 95,
+      "user_id": 19,
+      "is_picked": true,
+      "created_at": "2023-08-01T21:23:46.817Z",
+      "updated_at": "2023-08-01T21:23:46.817Z"
+    },
+    {
+      "id": 289,
+      "team_id": 65,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:48.933Z",
+      "updated_at": "2023-09-08T19:57:48.933Z"
+    },
+    {
+      "id": 290,
+      "team_id": 69,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:48.950Z",
+      "updated_at": "2023-09-08T19:57:48.950Z"
+    },
+    {
+      "id": 291,
+      "team_id": 71,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:48.974Z",
+      "updated_at": "2023-09-08T19:57:48.974Z"
+    },
+    {
+      "id": 292,
+      "team_id": 67,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:48.999Z",
+      "updated_at": "2023-09-08T19:57:48.999Z"
+    },
+    {
+      "id": 293,
+      "team_id": 66,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.001Z",
+      "updated_at": "2023-09-08T19:57:49.001Z"
+    },
+    {
+      "id": 294,
+      "team_id": 72,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.002Z",
+      "updated_at": "2023-09-08T19:57:49.002Z"
+    },
+    {
+      "id": 295,
+      "team_id": 70,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.016Z",
+      "updated_at": "2023-09-08T19:57:49.016Z"
+    },
+    {
+      "id": 296,
+      "team_id": 73,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.023Z",
+      "updated_at": "2023-09-08T19:57:49.023Z"
+    },
+    {
+      "id": 297,
+      "team_id": 68,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.032Z",
+      "updated_at": "2023-09-08T19:57:49.032Z"
+    },
+    {
+      "id": 298,
+      "team_id": 74,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.053Z",
+      "updated_at": "2023-09-08T19:57:49.053Z"
+    },
+    {
+      "id": 299,
+      "team_id": 75,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.056Z",
+      "updated_at": "2023-09-08T19:57:49.056Z"
+    },
+    {
+      "id": 300,
+      "team_id": 76,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.066Z",
+      "updated_at": "2023-09-08T19:57:49.066Z"
+    },
+    {
+      "id": 301,
+      "team_id": 77,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.070Z",
+      "updated_at": "2023-09-08T19:57:49.070Z"
+    },
+    {
+      "id": 302,
+      "team_id": 78,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.074Z",
+      "updated_at": "2023-09-08T19:57:49.074Z"
+    },
+    {
+      "id": 303,
+      "team_id": 79,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.082Z",
+      "updated_at": "2023-09-08T19:57:49.082Z"
+    },
+    {
+      "id": 304,
+      "team_id": 80,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.095Z",
+      "updated_at": "2023-09-08T19:57:49.095Z"
+    },
+    {
+      "id": 305,
+      "team_id": 81,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.103Z",
+      "updated_at": "2023-09-08T19:57:49.103Z"
+    },
+    {
+      "id": 306,
+      "team_id": 83,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.123Z",
+      "updated_at": "2023-09-08T19:57:49.123Z"
+    },
+    {
+      "id": 307,
+      "team_id": 82,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.124Z",
+      "updated_at": "2023-09-08T19:57:49.124Z"
+    },
+    {
+      "id": 308,
+      "team_id": 84,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.128Z",
+      "updated_at": "2023-09-08T19:57:49.128Z"
+    },
+    {
+      "id": 309,
+      "team_id": 85,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.137Z",
+      "updated_at": "2023-09-08T19:57:49.137Z"
+    },
+    {
+      "id": 310,
+      "team_id": 86,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.139Z",
+      "updated_at": "2023-09-08T19:57:49.139Z"
+    },
+    {
+      "id": 311,
+      "team_id": 87,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.151Z",
+      "updated_at": "2023-09-08T19:57:49.151Z"
+    },
+    {
+      "id": 312,
+      "team_id": 88,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.170Z",
+      "updated_at": "2023-09-08T19:57:49.170Z"
+    },
+    {
+      "id": 317,
+      "team_id": 93,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.206Z",
+      "updated_at": "2023-09-08T19:57:49.206Z"
+    },
+    {
+      "id": 318,
+      "team_id": 94,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.221Z",
+      "updated_at": "2023-09-08T19:57:49.221Z"
+    },
+    {
+      "id": 319,
+      "team_id": 95,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.238Z",
+      "updated_at": "2023-09-08T19:57:49.238Z"
+    },
+    {
+      "id": 313,
+      "team_id": 92,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.189Z",
+      "updated_at": "2023-09-08T19:57:49.189Z"
+    },
+    {
+      "id": 314,
+      "team_id": 90,
+      "user_id": 22,
+      "is_picked": true,
+      "created_at": "2023-09-08T19:57:49.191Z",
+      "updated_at": "2023-09-08T19:57:49.191Z"
+    },
+    {
+      "id": 315,
+      "team_id": 89,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.192Z",
+      "updated_at": "2023-09-08T19:57:49.192Z"
+    },
+    {
+      "id": 316,
+      "team_id": 91,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.198Z",
+      "updated_at": "2023-09-08T19:57:49.198Z"
+    },
+    {
+      "id": 320,
+      "team_id": 96,
+      "user_id": 22,
+      "is_picked": false,
+      "created_at": "2023-09-08T19:57:49.251Z",
+      "updated_at": "2023-09-08T19:57:49.251Z"
+    },
+    {
+      "id": 321,
+      "team_id": 65,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.051Z",
+      "updated_at": "2023-09-08T21:01:46.051Z"
+    },
+    {
+      "id": 322,
+      "team_id": 70,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.078Z",
+      "updated_at": "2023-09-08T21:01:46.078Z"
+    },
+    {
+      "id": 323,
+      "team_id": 71,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.113Z",
+      "updated_at": "2023-09-08T21:01:46.113Z"
+    },
+    {
+      "id": 324,
+      "team_id": 66,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.141Z",
+      "updated_at": "2023-09-08T21:01:46.141Z"
+    },
+    {
+      "id": 325,
+      "team_id": 67,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.141Z",
+      "updated_at": "2023-09-08T21:01:46.141Z"
+    },
+    {
+      "id": 326,
+      "team_id": 72,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.151Z",
+      "updated_at": "2023-09-08T21:01:46.151Z"
+    },
+    {
+      "id": 327,
+      "team_id": 69,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.152Z",
+      "updated_at": "2023-09-08T21:01:46.152Z"
+    },
+    {
+      "id": 328,
+      "team_id": 68,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.158Z",
+      "updated_at": "2023-09-08T21:01:46.158Z"
+    },
+    {
+      "id": 329,
+      "team_id": 73,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.173Z",
+      "updated_at": "2023-09-08T21:01:46.173Z"
+    },
+    {
+      "id": 330,
+      "team_id": 75,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.213Z",
+      "updated_at": "2023-09-08T21:01:46.213Z"
+    },
+    {
+      "id": 331,
+      "team_id": 77,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.214Z",
+      "updated_at": "2023-09-08T21:01:46.214Z"
+    },
+    {
+      "id": 332,
+      "team_id": 76,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.216Z",
+      "updated_at": "2023-09-08T21:01:46.216Z"
+    },
+    {
+      "id": 333,
+      "team_id": 78,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.221Z",
+      "updated_at": "2023-09-08T21:01:46.221Z"
+    },
+    {
+      "id": 334,
+      "team_id": 74,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.228Z",
+      "updated_at": "2023-09-08T21:01:46.228Z"
+    },
+    {
+      "id": 335,
+      "team_id": 79,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.248Z",
+      "updated_at": "2023-09-08T21:01:46.248Z"
+    },
+    {
+      "id": 336,
+      "team_id": 80,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.268Z",
+      "updated_at": "2023-09-08T21:01:46.268Z"
+    },
+    {
+      "id": 337,
+      "team_id": 81,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.287Z",
+      "updated_at": "2023-09-08T21:01:46.287Z"
+    },
+    {
+      "id": 338,
+      "team_id": 84,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.290Z",
+      "updated_at": "2023-09-08T21:01:46.290Z"
+    },
+    {
+      "id": 339,
+      "team_id": 83,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.291Z",
+      "updated_at": "2023-09-08T21:01:46.291Z"
+    },
+    {
+      "id": 340,
+      "team_id": 82,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.293Z",
+      "updated_at": "2023-09-08T21:01:46.293Z"
+    },
+    {
+      "id": 341,
+      "team_id": 85,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.304Z",
+      "updated_at": "2023-09-08T21:01:46.304Z"
+    },
+    {
+      "id": 342,
+      "team_id": 86,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.363Z",
+      "updated_at": "2023-09-08T21:01:46.363Z"
+    },
+    {
+      "id": 343,
+      "team_id": 87,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.372Z",
+      "updated_at": "2023-09-08T21:01:46.372Z"
+    },
+    {
+      "id": 344,
+      "team_id": 88,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.376Z",
+      "updated_at": "2023-09-08T21:01:46.376Z"
+    },
+    {
+      "id": 345,
+      "team_id": 90,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.381Z",
+      "updated_at": "2023-09-08T21:01:46.381Z"
+    },
+    {
+      "id": 346,
+      "team_id": 89,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.388Z",
+      "updated_at": "2023-09-08T21:01:46.388Z"
+    },
+    {
+      "id": 347,
+      "team_id": 91,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.393Z",
+      "updated_at": "2023-09-08T21:01:46.393Z"
+    },
+    {
+      "id": 348,
+      "team_id": 92,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.420Z",
+      "updated_at": "2023-09-08T21:01:46.420Z"
+    },
+    {
+      "id": 349,
+      "team_id": 93,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.444Z",
+      "updated_at": "2023-09-08T21:01:46.444Z"
+    },
+    {
+      "id": 350,
+      "team_id": 95,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.452Z",
+      "updated_at": "2023-09-08T21:01:46.452Z"
+    },
+    {
+      "id": 351,
+      "team_id": 96,
+      "user_id": 23,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:01:46.457Z",
+      "updated_at": "2023-09-08T21:01:46.457Z"
+    },
+    {
+      "id": 352,
+      "team_id": 94,
+      "user_id": 23,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:01:46.459Z",
+      "updated_at": "2023-09-08T21:01:46.459Z"
+    },
+    {
+      "id": 353,
+      "team_id": 65,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.190Z",
+      "updated_at": "2023-09-08T21:08:32.190Z"
+    },
+    {
+      "id": 354,
+      "team_id": 70,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.201Z",
+      "updated_at": "2023-09-08T21:08:32.201Z"
+    },
+    {
+      "id": 355,
+      "team_id": 71,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.229Z",
+      "updated_at": "2023-09-08T21:08:32.229Z"
+    },
+    {
+      "id": 356,
+      "team_id": 72,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.248Z",
+      "updated_at": "2023-09-08T21:08:32.248Z"
+    },
+    {
+      "id": 357,
+      "team_id": 66,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.255Z",
+      "updated_at": "2023-09-08T21:08:32.255Z"
+    },
+    {
+      "id": 358,
+      "team_id": 69,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.256Z",
+      "updated_at": "2023-09-08T21:08:32.256Z"
+    },
+    {
+      "id": 359,
+      "team_id": 73,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.268Z",
+      "updated_at": "2023-09-08T21:08:32.268Z"
+    },
+    {
+      "id": 360,
+      "team_id": 67,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.268Z",
+      "updated_at": "2023-09-08T21:08:32.268Z"
+    },
+    {
+      "id": 361,
+      "team_id": 74,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.286Z",
+      "updated_at": "2023-09-08T21:08:32.286Z"
+    },
+    {
+      "id": 362,
+      "team_id": 68,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.287Z",
+      "updated_at": "2023-09-08T21:08:32.287Z"
+    },
+    {
+      "id": 363,
+      "team_id": 75,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.298Z",
+      "updated_at": "2023-09-08T21:08:32.298Z"
+    },
+    {
+      "id": 364,
+      "team_id": 76,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.301Z",
+      "updated_at": "2023-09-08T21:08:32.301Z"
+    },
+    {
+      "id": 365,
+      "team_id": 77,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.309Z",
+      "updated_at": "2023-09-08T21:08:32.309Z"
+    },
+    {
+      "id": 366,
+      "team_id": 78,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.311Z",
+      "updated_at": "2023-09-08T21:08:32.311Z"
+    },
+    {
+      "id": 367,
+      "team_id": 81,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.335Z",
+      "updated_at": "2023-09-08T21:08:32.335Z"
+    },
+    {
+      "id": 368,
+      "team_id": 82,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.339Z",
+      "updated_at": "2023-09-08T21:08:32.339Z"
+    },
+    {
+      "id": 369,
+      "team_id": 79,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.340Z",
+      "updated_at": "2023-09-08T21:08:32.340Z"
+    },
+    {
+      "id": 370,
+      "team_id": 80,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.344Z",
+      "updated_at": "2023-09-08T21:08:32.344Z"
+    },
+    {
+      "id": 371,
+      "team_id": 83,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.351Z",
+      "updated_at": "2023-09-08T21:08:32.351Z"
+    },
+    {
+      "id": 372,
+      "team_id": 84,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.357Z",
+      "updated_at": "2023-09-08T21:08:32.357Z"
+    },
+    {
+      "id": 373,
+      "team_id": 85,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.378Z",
+      "updated_at": "2023-09-08T21:08:32.378Z"
+    },
+    {
+      "id": 374,
+      "team_id": 86,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.382Z",
+      "updated_at": "2023-09-08T21:08:32.382Z"
+    },
+    {
+      "id": 375,
+      "team_id": 88,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.393Z",
+      "updated_at": "2023-09-08T21:08:32.393Z"
+    },
+    {
+      "id": 376,
+      "team_id": 87,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.394Z",
+      "updated_at": "2023-09-08T21:08:32.394Z"
+    },
+    {
+      "id": 377,
+      "team_id": 89,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.396Z",
+      "updated_at": "2023-09-08T21:08:32.396Z"
+    },
+    {
+      "id": 378,
+      "team_id": 90,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.399Z",
+      "updated_at": "2023-09-08T21:08:32.399Z"
+    },
+    {
+      "id": 379,
+      "team_id": 91,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.422Z",
+      "updated_at": "2023-09-08T21:08:32.422Z"
+    },
+    {
+      "id": 380,
+      "team_id": 92,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.425Z",
+      "updated_at": "2023-09-08T21:08:32.425Z"
+    },
+    {
+      "id": 381,
+      "team_id": 93,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.442Z",
+      "updated_at": "2023-09-08T21:08:32.442Z"
+    },
+    {
+      "id": 382,
+      "team_id": 94,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.446Z",
+      "updated_at": "2023-09-08T21:08:32.446Z"
+    },
+    {
+      "id": 383,
+      "team_id": 95,
+      "user_id": 24,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:08:32.447Z",
+      "updated_at": "2023-09-08T21:08:32.447Z"
+    },
+    {
+      "id": 384,
+      "team_id": 96,
+      "user_id": 24,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:08:32.449Z",
+      "updated_at": "2023-09-08T21:08:32.449Z"
+    },
+    {
+      "id": 385,
+      "team_id": 65,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.457Z",
+      "updated_at": "2023-09-08T21:40:12.457Z"
+    },
+    {
+      "id": 386,
+      "team_id": 68,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.492Z",
+      "updated_at": "2023-09-08T21:40:12.492Z"
+    },
+    {
+      "id": 387,
+      "team_id": 71,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.510Z",
+      "updated_at": "2023-09-08T21:40:12.510Z"
+    },
+    {
+      "id": 388,
+      "team_id": 72,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.540Z",
+      "updated_at": "2023-09-08T21:40:12.540Z"
+    },
+    {
+      "id": 389,
+      "team_id": 67,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.566Z",
+      "updated_at": "2023-09-08T21:40:12.566Z"
+    },
+    {
+      "id": 390,
+      "team_id": 73,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.578Z",
+      "updated_at": "2023-09-08T21:40:12.578Z"
+    },
+    {
+      "id": 391,
+      "team_id": 74,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.590Z",
+      "updated_at": "2023-09-08T21:40:12.590Z"
+    },
+    {
+      "id": 392,
+      "team_id": 66,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.601Z",
+      "updated_at": "2023-09-08T21:40:12.601Z"
+    },
+    {
+      "id": 393,
+      "team_id": 69,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.602Z",
+      "updated_at": "2023-09-08T21:40:12.602Z"
+    },
+    {
+      "id": 394,
+      "team_id": 70,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.602Z",
+      "updated_at": "2023-09-08T21:40:12.602Z"
+    },
+    {
+      "id": 395,
+      "team_id": 75,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.614Z",
+      "updated_at": "2023-09-08T21:40:12.614Z"
+    },
+    {
+      "id": 396,
+      "team_id": 76,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.627Z",
+      "updated_at": "2023-09-08T21:40:12.627Z"
+    },
+    {
+      "id": 397,
+      "team_id": 77,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.640Z",
+      "updated_at": "2023-09-08T21:40:12.640Z"
+    },
+    {
+      "id": 398,
+      "team_id": 79,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.656Z",
+      "updated_at": "2023-09-08T21:40:12.656Z"
+    },
+    {
+      "id": 399,
+      "team_id": 78,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.656Z",
+      "updated_at": "2023-09-08T21:40:12.656Z"
+    },
+    {
+      "id": 400,
+      "team_id": 80,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.660Z",
+      "updated_at": "2023-09-08T21:40:12.660Z"
+    },
+    {
+      "id": 401,
+      "team_id": 81,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.669Z",
+      "updated_at": "2023-09-08T21:40:12.669Z"
+    },
+    {
+      "id": 402,
+      "team_id": 82,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.675Z",
+      "updated_at": "2023-09-08T21:40:12.675Z"
+    },
+    {
+      "id": 403,
+      "team_id": 83,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.686Z",
+      "updated_at": "2023-09-08T21:40:12.686Z"
+    },
+    {
+      "id": 404,
+      "team_id": 84,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.710Z",
+      "updated_at": "2023-09-08T21:40:12.710Z"
+    },
+    {
+      "id": 405,
+      "team_id": 85,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.713Z",
+      "updated_at": "2023-09-08T21:40:12.713Z"
+    },
+    {
+      "id": 406,
+      "team_id": 86,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.717Z",
+      "updated_at": "2023-09-08T21:40:12.717Z"
+    },
+    {
+      "id": 407,
+      "team_id": 87,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.720Z",
+      "updated_at": "2023-09-08T21:40:12.720Z"
+    },
+    {
+      "id": 408,
+      "team_id": 88,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.725Z",
+      "updated_at": "2023-09-08T21:40:12.725Z"
+    },
+    {
+      "id": 409,
+      "team_id": 89,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.732Z",
+      "updated_at": "2023-09-08T21:40:12.732Z"
+    },
+    {
+      "id": 410,
+      "team_id": 90,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.759Z",
+      "updated_at": "2023-09-08T21:40:12.759Z"
+    },
+    {
+      "id": 411,
+      "team_id": 91,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.764Z",
+      "updated_at": "2023-09-08T21:40:12.764Z"
+    },
+    {
+      "id": 412,
+      "team_id": 92,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.774Z",
+      "updated_at": "2023-09-08T21:40:12.774Z"
+    },
+    {
+      "id": 413,
+      "team_id": 93,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.775Z",
+      "updated_at": "2023-09-08T21:40:12.775Z"
+    },
+    {
+      "id": 414,
+      "team_id": 94,
+      "user_id": 25,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:40:12.776Z",
+      "updated_at": "2023-09-08T21:40:12.776Z"
+    },
+    {
+      "id": 415,
+      "team_id": 95,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.783Z",
+      "updated_at": "2023-09-08T21:40:12.783Z"
+    },
+    {
+      "id": 416,
+      "team_id": 96,
+      "user_id": 25,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:40:12.809Z",
+      "updated_at": "2023-09-08T21:40:12.809Z"
+    },
+    {
+      "id": 417,
+      "team_id": 69,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.219Z",
+      "updated_at": "2023-09-08T21:54:20.219Z"
+    },
+    {
+      "id": 420,
+      "team_id": 70,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.221Z",
+      "updated_at": "2023-09-08T21:54:20.221Z"
+    },
+    {
+      "id": 418,
+      "team_id": 65,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.220Z",
+      "updated_at": "2023-09-08T21:54:20.220Z"
+    },
+    {
+      "id": 421,
+      "team_id": 68,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.221Z",
+      "updated_at": "2023-09-08T21:54:20.221Z"
+    },
+    {
+      "id": 419,
+      "team_id": 67,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.220Z",
+      "updated_at": "2023-09-08T21:54:20.220Z"
+    },
+    {
+      "id": 422,
+      "team_id": 66,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.236Z",
+      "updated_at": "2023-09-08T21:54:20.236Z"
+    },
+    {
+      "id": 423,
+      "team_id": 75,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.283Z",
+      "updated_at": "2023-09-08T21:54:20.283Z"
+    },
+    {
+      "id": 424,
+      "team_id": 72,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.284Z",
+      "updated_at": "2023-09-08T21:54:20.284Z"
+    },
+    {
+      "id": 425,
+      "team_id": 76,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.287Z",
+      "updated_at": "2023-09-08T21:54:20.287Z"
+    },
+    {
+      "id": 426,
+      "team_id": 71,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.291Z",
+      "updated_at": "2023-09-08T21:54:20.291Z"
+    },
+    {
+      "id": 427,
+      "team_id": 74,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.292Z",
+      "updated_at": "2023-09-08T21:54:20.292Z"
+    },
+    {
+      "id": 428,
+      "team_id": 73,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.300Z",
+      "updated_at": "2023-09-08T21:54:20.300Z"
+    },
+    {
+      "id": 429,
+      "team_id": 82,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.343Z",
+      "updated_at": "2023-09-08T21:54:20.343Z"
+    },
+    {
+      "id": 430,
+      "team_id": 80,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.349Z",
+      "updated_at": "2023-09-08T21:54:20.349Z"
+    },
+    {
+      "id": 431,
+      "team_id": 81,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.350Z",
+      "updated_at": "2023-09-08T21:54:20.350Z"
+    },
+    {
+      "id": 432,
+      "team_id": 77,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.351Z",
+      "updated_at": "2023-09-08T21:54:20.351Z"
+    },
+    {
+      "id": 433,
+      "team_id": 78,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.351Z",
+      "updated_at": "2023-09-08T21:54:20.351Z"
+    },
+    {
+      "id": 434,
+      "team_id": 79,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.369Z",
+      "updated_at": "2023-09-08T21:54:20.369Z"
+    },
+    {
+      "id": 435,
+      "team_id": 84,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.399Z",
+      "updated_at": "2023-09-08T21:54:20.399Z"
+    },
+    {
+      "id": 436,
+      "team_id": 83,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.399Z",
+      "updated_at": "2023-09-08T21:54:20.399Z"
+    },
+    {
+      "id": 437,
+      "team_id": 85,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.410Z",
+      "updated_at": "2023-09-08T21:54:20.410Z"
+    },
+    {
+      "id": 438,
+      "team_id": 86,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.412Z",
+      "updated_at": "2023-09-08T21:54:20.412Z"
+    },
+    {
+      "id": 439,
+      "team_id": 87,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.415Z",
+      "updated_at": "2023-09-08T21:54:20.415Z"
+    },
+    {
+      "id": 442,
+      "team_id": 90,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.458Z",
+      "updated_at": "2023-09-08T21:54:20.458Z"
+    },
+    {
+      "id": 446,
+      "team_id": 94,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.480Z",
+      "updated_at": "2023-09-08T21:54:20.480Z"
+    },
+    {
+      "id": 447,
+      "team_id": 95,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.507Z",
+      "updated_at": "2023-09-08T21:54:20.507Z"
+    },
+    {
+      "id": 448,
+      "team_id": 96,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.520Z",
+      "updated_at": "2023-09-08T21:54:20.520Z"
+    },
+    {
+      "id": 440,
+      "team_id": 88,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.420Z",
+      "updated_at": "2023-09-08T21:54:20.420Z"
+    },
+    {
+      "id": 441,
+      "team_id": 89,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.457Z",
+      "updated_at": "2023-09-08T21:54:20.457Z"
+    },
+    {
+      "id": 444,
+      "team_id": 91,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.474Z",
+      "updated_at": "2023-09-08T21:54:20.474Z"
+    },
+    {
+      "id": 443,
+      "team_id": 92,
+      "user_id": 26,
+      "is_picked": false,
+      "created_at": "2023-09-08T21:54:20.471Z",
+      "updated_at": "2023-09-08T21:54:20.471Z"
+    },
+    {
+      "id": 445,
+      "team_id": 93,
+      "user_id": 26,
+      "is_picked": true,
+      "created_at": "2023-09-08T21:54:20.477Z",
+      "updated_at": "2023-09-08T21:54:20.477Z"
+    },
+    {
+      "id": 449,
+      "team_id": 68,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:37.939Z",
+      "updated_at": "2023-09-09T18:03:37.939Z"
+    },
+    {
+      "id": 450,
+      "team_id": 65,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:37.939Z",
+      "updated_at": "2023-09-09T18:03:37.939Z"
+    },
+    {
+      "id": 451,
+      "team_id": 70,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:37.940Z",
+      "updated_at": "2023-09-09T18:03:37.940Z"
+    },
+    {
+      "id": 452,
+      "team_id": 69,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:37.941Z",
+      "updated_at": "2023-09-09T18:03:37.941Z"
+    },
+    {
+      "id": 453,
+      "team_id": 67,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:37.947Z",
+      "updated_at": "2023-09-09T18:03:37.947Z"
+    },
+    {
+      "id": 454,
+      "team_id": 66,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:37.958Z",
+      "updated_at": "2023-09-09T18:03:37.958Z"
+    },
+    {
+      "id": 455,
+      "team_id": 71,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.042Z",
+      "updated_at": "2023-09-09T18:03:38.042Z"
+    },
+    {
+      "id": 456,
+      "team_id": 73,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.046Z",
+      "updated_at": "2023-09-09T18:03:38.046Z"
+    },
+    {
+      "id": 457,
+      "team_id": 74,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.046Z",
+      "updated_at": "2023-09-09T18:03:38.046Z"
+    },
+    {
+      "id": 458,
+      "team_id": 75,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.047Z",
+      "updated_at": "2023-09-09T18:03:38.047Z"
+    },
+    {
+      "id": 459,
+      "team_id": 72,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.048Z",
+      "updated_at": "2023-09-09T18:03:38.048Z"
+    },
+    {
+      "id": 460,
+      "team_id": 76,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.057Z",
+      "updated_at": "2023-09-09T18:03:38.057Z"
+    },
+    {
+      "id": 461,
+      "team_id": 77,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.077Z",
+      "updated_at": "2023-09-09T18:03:38.077Z"
+    },
+    {
+      "id": 462,
+      "team_id": 78,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.085Z",
+      "updated_at": "2023-09-09T18:03:38.085Z"
+    },
+    {
+      "id": 463,
+      "team_id": 79,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.093Z",
+      "updated_at": "2023-09-09T18:03:38.093Z"
+    },
+    {
+      "id": 464,
+      "team_id": 80,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.095Z",
+      "updated_at": "2023-09-09T18:03:38.095Z"
+    },
+    {
+      "id": 465,
+      "team_id": 81,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.096Z",
+      "updated_at": "2023-09-09T18:03:38.096Z"
+    },
+    {
+      "id": 466,
+      "team_id": 82,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.098Z",
+      "updated_at": "2023-09-09T18:03:38.098Z"
+    },
+    {
+      "id": 467,
+      "team_id": 83,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.114Z",
+      "updated_at": "2023-09-09T18:03:38.114Z"
+    },
+    {
+      "id": 468,
+      "team_id": 84,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.127Z",
+      "updated_at": "2023-09-09T18:03:38.127Z"
+    },
+    {
+      "id": 469,
+      "team_id": 85,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.131Z",
+      "updated_at": "2023-09-09T18:03:38.131Z"
+    },
+    {
+      "id": 470,
+      "team_id": 87,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.137Z",
+      "updated_at": "2023-09-09T18:03:38.137Z"
+    },
+    {
+      "id": 471,
+      "team_id": 88,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.139Z",
+      "updated_at": "2023-09-09T18:03:38.139Z"
+    },
+    {
+      "id": 472,
+      "team_id": 86,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.141Z",
+      "updated_at": "2023-09-09T18:03:38.141Z"
+    },
+    {
+      "id": 473,
+      "team_id": 89,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.150Z",
+      "updated_at": "2023-09-09T18:03:38.150Z"
+    },
+    {
+      "id": 474,
+      "team_id": 90,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.167Z",
+      "updated_at": "2023-09-09T18:03:38.167Z"
+    },
+    {
+      "id": 475,
+      "team_id": 91,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.170Z",
+      "updated_at": "2023-09-09T18:03:38.170Z"
+    },
+    {
+      "id": 476,
+      "team_id": 94,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.178Z",
+      "updated_at": "2023-09-09T18:03:38.178Z"
+    },
+    {
+      "id": 477,
+      "team_id": 92,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.179Z",
+      "updated_at": "2023-09-09T18:03:38.179Z"
+    },
+    {
+      "id": 478,
+      "team_id": 93,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.181Z",
+      "updated_at": "2023-09-09T18:03:38.181Z"
+    },
+    {
+      "id": 479,
+      "team_id": 95,
+      "user_id": 27,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:03:38.182Z",
+      "updated_at": "2023-09-09T18:03:38.182Z"
+    },
+    {
+      "id": 480,
+      "team_id": 96,
+      "user_id": 27,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:03:38.203Z",
+      "updated_at": "2023-09-09T18:03:38.203Z"
+    },
+    {
+      "id": 481,
+      "team_id": 65,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.056Z",
+      "updated_at": "2023-09-09T18:26:45.056Z"
+    },
+    {
+      "id": 482,
+      "team_id": 69,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.071Z",
+      "updated_at": "2023-09-09T18:26:45.071Z"
+    },
+    {
+      "id": 483,
+      "team_id": 68,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.130Z",
+      "updated_at": "2023-09-09T18:26:45.130Z"
+    },
+    {
+      "id": 484,
+      "team_id": 71,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.133Z",
+      "updated_at": "2023-09-09T18:26:45.133Z"
+    },
+    {
+      "id": 485,
+      "team_id": 72,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.141Z",
+      "updated_at": "2023-09-09T18:26:45.141Z"
+    },
+    {
+      "id": 486,
+      "team_id": 66,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.148Z",
+      "updated_at": "2023-09-09T18:26:45.148Z"
+    },
+    {
+      "id": 487,
+      "team_id": 67,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.150Z",
+      "updated_at": "2023-09-09T18:26:45.150Z"
+    },
+    {
+      "id": 488,
+      "team_id": 70,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.150Z",
+      "updated_at": "2023-09-09T18:26:45.150Z"
+    },
+    {
+      "id": 489,
+      "team_id": 73,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.206Z",
+      "updated_at": "2023-09-09T18:26:45.206Z"
+    },
+    {
+      "id": 490,
+      "team_id": 74,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.207Z",
+      "updated_at": "2023-09-09T18:26:45.207Z"
+    },
+    {
+      "id": 491,
+      "team_id": 75,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.210Z",
+      "updated_at": "2023-09-09T18:26:45.210Z"
+    },
+    {
+      "id": 492,
+      "team_id": 77,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.229Z",
+      "updated_at": "2023-09-09T18:26:45.229Z"
+    },
+    {
+      "id": 493,
+      "team_id": 78,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.231Z",
+      "updated_at": "2023-09-09T18:26:45.231Z"
+    },
+    {
+      "id": 494,
+      "team_id": 76,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.232Z",
+      "updated_at": "2023-09-09T18:26:45.232Z"
+    },
+    {
+      "id": 495,
+      "team_id": 79,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.278Z",
+      "updated_at": "2023-09-09T18:26:45.278Z"
+    },
+    {
+      "id": 496,
+      "team_id": 81,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.280Z",
+      "updated_at": "2023-09-09T18:26:45.280Z"
+    },
+    {
+      "id": 497,
+      "team_id": 80,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.282Z",
+      "updated_at": "2023-09-09T18:26:45.282Z"
+    },
+    {
+      "id": 498,
+      "team_id": 82,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.292Z",
+      "updated_at": "2023-09-09T18:26:45.292Z"
+    },
+    {
+      "id": 499,
+      "team_id": 83,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.297Z",
+      "updated_at": "2023-09-09T18:26:45.297Z"
+    },
+    {
+      "id": 500,
+      "team_id": 84,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.304Z",
+      "updated_at": "2023-09-09T18:26:45.304Z"
+    },
+    {
+      "id": 501,
+      "team_id": 85,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.346Z",
+      "updated_at": "2023-09-09T18:26:45.346Z"
+    },
+    {
+      "id": 502,
+      "team_id": 88,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.358Z",
+      "updated_at": "2023-09-09T18:26:45.358Z"
+    },
+    {
+      "id": 503,
+      "team_id": 89,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.361Z",
+      "updated_at": "2023-09-09T18:26:45.361Z"
+    },
+    {
+      "id": 504,
+      "team_id": 86,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.362Z",
+      "updated_at": "2023-09-09T18:26:45.362Z"
+    },
+    {
+      "id": 505,
+      "team_id": 87,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.367Z",
+      "updated_at": "2023-09-09T18:26:45.367Z"
+    },
+    {
+      "id": 506,
+      "team_id": 90,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.372Z",
+      "updated_at": "2023-09-09T18:26:45.372Z"
+    },
+    {
+      "id": 507,
+      "team_id": 91,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.407Z",
+      "updated_at": "2023-09-09T18:26:45.407Z"
+    },
+    {
+      "id": 508,
+      "team_id": 92,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.433Z",
+      "updated_at": "2023-09-09T18:26:45.433Z"
+    },
+    {
+      "id": 509,
+      "team_id": 93,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.435Z",
+      "updated_at": "2023-09-09T18:26:45.435Z"
+    },
+    {
+      "id": 510,
+      "team_id": 94,
+      "user_id": 28,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:26:45.440Z",
+      "updated_at": "2023-09-09T18:26:45.440Z"
+    },
+    {
+      "id": 511,
+      "team_id": 95,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.442Z",
+      "updated_at": "2023-09-09T18:26:45.442Z"
+    },
+    {
+      "id": 512,
+      "team_id": 96,
+      "user_id": 28,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:26:45.446Z",
+      "updated_at": "2023-09-09T18:26:45.446Z"
+    },
+    {
+      "id": 513,
+      "team_id": 68,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.390Z",
+      "updated_at": "2023-09-09T18:43:29.390Z"
+    },
+    {
+      "id": 514,
+      "team_id": 70,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.433Z",
+      "updated_at": "2023-09-09T18:43:29.433Z"
+    },
+    {
+      "id": 515,
+      "team_id": 71,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.455Z",
+      "updated_at": "2023-09-09T18:43:29.455Z"
+    },
+    {
+      "id": 516,
+      "team_id": 65,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.492Z",
+      "updated_at": "2023-09-09T18:43:29.492Z"
+    },
+    {
+      "id": 517,
+      "team_id": 69,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.492Z",
+      "updated_at": "2023-09-09T18:43:29.492Z"
+    },
+    {
+      "id": 518,
+      "team_id": 67,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.498Z",
+      "updated_at": "2023-09-09T18:43:29.498Z"
+    },
+    {
+      "id": 519,
+      "team_id": 72,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.499Z",
+      "updated_at": "2023-09-09T18:43:29.499Z"
+    },
+    {
+      "id": 520,
+      "team_id": 66,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.507Z",
+      "updated_at": "2023-09-09T18:43:29.507Z"
+    },
+    {
+      "id": 521,
+      "team_id": 73,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.516Z",
+      "updated_at": "2023-09-09T18:43:29.516Z"
+    },
+    {
+      "id": 522,
+      "team_id": 74,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.561Z",
+      "updated_at": "2023-09-09T18:43:29.561Z"
+    },
+    {
+      "id": 523,
+      "team_id": 75,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.564Z",
+      "updated_at": "2023-09-09T18:43:29.564Z"
+    },
+    {
+      "id": 524,
+      "team_id": 77,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.572Z",
+      "updated_at": "2023-09-09T18:43:29.572Z"
+    },
+    {
+      "id": 525,
+      "team_id": 78,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.573Z",
+      "updated_at": "2023-09-09T18:43:29.573Z"
+    },
+    {
+      "id": 526,
+      "team_id": 76,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.574Z",
+      "updated_at": "2023-09-09T18:43:29.574Z"
+    },
+    {
+      "id": 527,
+      "team_id": 79,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.582Z",
+      "updated_at": "2023-09-09T18:43:29.582Z"
+    },
+    {
+      "id": 528,
+      "team_id": 80,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.624Z",
+      "updated_at": "2023-09-09T18:43:29.624Z"
+    },
+    {
+      "id": 529,
+      "team_id": 81,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.643Z",
+      "updated_at": "2023-09-09T18:43:29.643Z"
+    },
+    {
+      "id": 530,
+      "team_id": 82,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.644Z",
+      "updated_at": "2023-09-09T18:43:29.644Z"
+    },
+    {
+      "id": 531,
+      "team_id": 84,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.649Z",
+      "updated_at": "2023-09-09T18:43:29.649Z"
+    },
+    {
+      "id": 532,
+      "team_id": 83,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.651Z",
+      "updated_at": "2023-09-09T18:43:29.651Z"
+    },
+    {
+      "id": 533,
+      "team_id": 85,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.652Z",
+      "updated_at": "2023-09-09T18:43:29.652Z"
+    },
+    {
+      "id": 534,
+      "team_id": 86,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.687Z",
+      "updated_at": "2023-09-09T18:43:29.687Z"
+    },
+    {
+      "id": 535,
+      "team_id": 87,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.712Z",
+      "updated_at": "2023-09-09T18:43:29.712Z"
+    },
+    {
+      "id": 536,
+      "team_id": 88,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.719Z",
+      "updated_at": "2023-09-09T18:43:29.719Z"
+    },
+    {
+      "id": 537,
+      "team_id": 89,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.725Z",
+      "updated_at": "2023-09-09T18:43:29.725Z"
+    },
+    {
+      "id": 538,
+      "team_id": 91,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.727Z",
+      "updated_at": "2023-09-09T18:43:29.727Z"
+    },
+    {
+      "id": 539,
+      "team_id": 90,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.727Z",
+      "updated_at": "2023-09-09T18:43:29.727Z"
+    },
+    {
+      "id": 540,
+      "team_id": 92,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.747Z",
+      "updated_at": "2023-09-09T18:43:29.747Z"
+    },
+    {
+      "id": 541,
+      "team_id": 93,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.775Z",
+      "updated_at": "2023-09-09T18:43:29.775Z"
+    },
+    {
+      "id": 542,
+      "team_id": 95,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.795Z",
+      "updated_at": "2023-09-09T18:43:29.795Z"
+    },
+    {
+      "id": 543,
+      "team_id": 94,
+      "user_id": 29,
+      "is_picked": true,
+      "created_at": "2023-09-09T18:43:29.798Z",
+      "updated_at": "2023-09-09T18:43:29.798Z"
+    },
+    {
+      "id": 544,
+      "team_id": 96,
+      "user_id": 29,
+      "is_picked": false,
+      "created_at": "2023-09-09T18:43:29.799Z",
+      "updated_at": "2023-09-09T18:43:29.799Z"
+    },
+    {
+      "id": 545,
+      "team_id": 65,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:12.867Z",
+      "updated_at": "2023-09-09T20:45:12.867Z"
+    },
+    {
+      "id": 546,
+      "team_id": 70,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:12.877Z",
+      "updated_at": "2023-09-09T20:45:12.877Z"
+    },
+    {
+      "id": 547,
+      "team_id": 68,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:12.930Z",
+      "updated_at": "2023-09-09T20:45:12.930Z"
+    },
+    {
+      "id": 548,
+      "team_id": 69,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:12.933Z",
+      "updated_at": "2023-09-09T20:45:12.933Z"
+    },
+    {
+      "id": 549,
+      "team_id": 67,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:12.941Z",
+      "updated_at": "2023-09-09T20:45:12.941Z"
+    },
+    {
+      "id": 550,
+      "team_id": 71,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:12.943Z",
+      "updated_at": "2023-09-09T20:45:12.943Z"
+    },
+    {
+      "id": 551,
+      "team_id": 66,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:12.944Z",
+      "updated_at": "2023-09-09T20:45:12.944Z"
+    },
+    {
+      "id": 552,
+      "team_id": 74,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.036Z",
+      "updated_at": "2023-09-09T20:45:13.036Z"
+    },
+    {
+      "id": 553,
+      "team_id": 73,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.037Z",
+      "updated_at": "2023-09-09T20:45:13.037Z"
+    },
+    {
+      "id": 554,
+      "team_id": 72,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.038Z",
+      "updated_at": "2023-09-09T20:45:13.038Z"
+    },
+    {
+      "id": 555,
+      "team_id": 75,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.039Z",
+      "updated_at": "2023-09-09T20:45:13.039Z"
+    },
+    {
+      "id": 556,
+      "team_id": 76,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.050Z",
+      "updated_at": "2023-09-09T20:45:13.050Z"
+    },
+    {
+      "id": 557,
+      "team_id": 77,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.055Z",
+      "updated_at": "2023-09-09T20:45:13.055Z"
+    },
+    {
+      "id": 558,
+      "team_id": 82,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.169Z",
+      "updated_at": "2023-09-09T20:45:13.169Z"
+    },
+    {
+      "id": 559,
+      "team_id": 80,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.172Z",
+      "updated_at": "2023-09-09T20:45:13.172Z"
+    },
+    {
+      "id": 560,
+      "team_id": 81,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.173Z",
+      "updated_at": "2023-09-09T20:45:13.173Z"
+    },
+    {
+      "id": 561,
+      "team_id": 79,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.178Z",
+      "updated_at": "2023-09-09T20:45:13.178Z"
+    },
+    {
+      "id": 562,
+      "team_id": 78,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.179Z",
+      "updated_at": "2023-09-09T20:45:13.179Z"
+    },
+    {
+      "id": 563,
+      "team_id": 83,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.185Z",
+      "updated_at": "2023-09-09T20:45:13.185Z"
+    },
+    {
+      "id": 564,
+      "team_id": 88,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.296Z",
+      "updated_at": "2023-09-09T20:45:13.296Z"
+    },
+    {
+      "id": 565,
+      "team_id": 87,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.297Z",
+      "updated_at": "2023-09-09T20:45:13.297Z"
+    },
+    {
+      "id": 566,
+      "team_id": 89,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.298Z",
+      "updated_at": "2023-09-09T20:45:13.298Z"
+    },
+    {
+      "id": 567,
+      "team_id": 85,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.301Z",
+      "updated_at": "2023-09-09T20:45:13.301Z"
+    },
+    {
+      "id": 568,
+      "team_id": 84,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.304Z",
+      "updated_at": "2023-09-09T20:45:13.304Z"
+    },
+    {
+      "id": 571,
+      "team_id": 92,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.420Z",
+      "updated_at": "2023-09-09T20:45:13.420Z"
+    },
+    {
+      "id": 575,
+      "team_id": 95,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.433Z",
+      "updated_at": "2023-09-09T20:45:13.433Z"
+    },
+    {
+      "id": 576,
+      "team_id": 96,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.529Z",
+      "updated_at": "2023-09-09T20:45:13.529Z"
+    },
+    {
+      "id": 579,
+      "team_id": 69,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.398Z",
+      "updated_at": "2023-09-09T20:46:44.398Z"
+    },
+    {
+      "id": 581,
+      "team_id": 68,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.414Z",
+      "updated_at": "2023-09-09T20:46:44.414Z"
+    },
+    {
+      "id": 582,
+      "team_id": 66,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.480Z",
+      "updated_at": "2023-09-09T20:46:44.480Z"
+    },
+    {
+      "id": 584,
+      "team_id": 72,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.491Z",
+      "updated_at": "2023-09-09T20:46:44.491Z"
+    },
+    {
+      "id": 585,
+      "team_id": 73,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.526Z",
+      "updated_at": "2023-09-09T20:46:44.526Z"
+    },
+    {
+      "id": 588,
+      "team_id": 77,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.621Z",
+      "updated_at": "2023-09-09T20:46:44.621Z"
+    },
+    {
+      "id": 592,
+      "team_id": 80,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.636Z",
+      "updated_at": "2023-09-09T20:46:44.636Z"
+    },
+    {
+      "id": 593,
+      "team_id": 81,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.714Z",
+      "updated_at": "2023-09-09T20:46:44.714Z"
+    },
+    {
+      "id": 597,
+      "team_id": 84,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.815Z",
+      "updated_at": "2023-09-09T20:46:44.815Z"
+    },
+    {
+      "id": 599,
+      "team_id": 87,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.829Z",
+      "updated_at": "2023-09-09T20:46:44.829Z"
+    },
+    {
+      "id": 600,
+      "team_id": 92,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.922Z",
+      "updated_at": "2023-09-09T20:46:44.922Z"
+    },
+    {
+      "id": 608,
+      "team_id": 95,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:45.063Z",
+      "updated_at": "2023-09-09T20:46:45.063Z"
+    },
+    {
+      "id": 569,
+      "team_id": 86,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.310Z",
+      "updated_at": "2023-09-09T20:45:13.310Z"
+    },
+    {
+      "id": 570,
+      "team_id": 93,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.420Z",
+      "updated_at": "2023-09-09T20:45:13.420Z"
+    },
+    {
+      "id": 590,
+      "team_id": 76,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.628Z",
+      "updated_at": "2023-09-09T20:46:44.628Z"
+    },
+    {
+      "id": 596,
+      "team_id": 82,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.814Z",
+      "updated_at": "2023-09-09T20:46:44.814Z"
+    },
+    {
+      "id": 602,
+      "team_id": 91,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.924Z",
+      "updated_at": "2023-09-09T20:46:44.924Z"
+    },
+    {
+      "id": 603,
+      "team_id": 90,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.934Z",
+      "updated_at": "2023-09-09T20:46:44.934Z"
+    },
+    {
+      "id": 604,
+      "team_id": 89,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.950Z",
+      "updated_at": "2023-09-09T20:46:44.950Z"
+    },
+    {
+      "id": 607,
+      "team_id": 96,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:45.062Z",
+      "updated_at": "2023-09-09T20:46:45.062Z"
+    },
+    {
+      "id": 572,
+      "team_id": 94,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.421Z",
+      "updated_at": "2023-09-09T20:45:13.421Z"
+    },
+    {
+      "id": 577,
+      "team_id": 65,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.397Z",
+      "updated_at": "2023-09-09T20:46:44.397Z"
+    },
+    {
+      "id": 589,
+      "team_id": 78,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.627Z",
+      "updated_at": "2023-09-09T20:46:44.627Z"
+    },
+    {
+      "id": 594,
+      "team_id": 83,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.804Z",
+      "updated_at": "2023-09-09T20:46:44.804Z"
+    },
+    {
+      "id": 573,
+      "team_id": 90,
+      "user_id": 30,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:45:13.426Z",
+      "updated_at": "2023-09-09T20:45:13.426Z"
+    },
+    {
+      "id": 591,
+      "team_id": 79,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.632Z",
+      "updated_at": "2023-09-09T20:46:44.632Z"
+    },
+    {
+      "id": 595,
+      "team_id": 85,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.813Z",
+      "updated_at": "2023-09-09T20:46:44.813Z"
+    },
+    {
+      "id": 574,
+      "team_id": 91,
+      "user_id": 30,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:45:13.429Z",
+      "updated_at": "2023-09-09T20:45:13.429Z"
+    },
+    {
+      "id": 578,
+      "team_id": 70,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.398Z",
+      "updated_at": "2023-09-09T20:46:44.398Z"
+    },
+    {
+      "id": 580,
+      "team_id": 67,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.412Z",
+      "updated_at": "2023-09-09T20:46:44.412Z"
+    },
+    {
+      "id": 583,
+      "team_id": 71,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.487Z",
+      "updated_at": "2023-09-09T20:46:44.487Z"
+    },
+    {
+      "id": 586,
+      "team_id": 74,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.529Z",
+      "updated_at": "2023-09-09T20:46:44.529Z"
+    },
+    {
+      "id": 587,
+      "team_id": 75,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.619Z",
+      "updated_at": "2023-09-09T20:46:44.619Z"
+    },
+    {
+      "id": 598,
+      "team_id": 86,
+      "user_id": 31,
+      "is_picked": true,
+      "created_at": "2023-09-09T20:46:44.818Z",
+      "updated_at": "2023-09-09T20:46:44.818Z"
+    },
+    {
+      "id": 601,
+      "team_id": 88,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.923Z",
+      "updated_at": "2023-09-09T20:46:44.923Z"
+    },
+    {
+      "id": 605,
+      "team_id": 93,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:44.951Z",
+      "updated_at": "2023-09-09T20:46:44.951Z"
+    },
+    {
+      "id": 606,
+      "team_id": 94,
+      "user_id": 31,
+      "is_picked": false,
+      "created_at": "2023-09-09T20:46:45.062Z",
+      "updated_at": "2023-09-09T20:46:45.062Z"
+    },
+    {
+      "id": 609,
+      "team_id": 66,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.262Z",
+      "updated_at": "2023-09-10T14:18:27.262Z"
+    },
+    {
+      "id": 610,
+      "team_id": 70,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.280Z",
+      "updated_at": "2023-09-10T14:18:27.280Z"
+    },
+    {
+      "id": 611,
+      "team_id": 71,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.296Z",
+      "updated_at": "2023-09-10T14:18:27.296Z"
+    },
+    {
+      "id": 612,
+      "team_id": 68,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.300Z",
+      "updated_at": "2023-09-10T14:18:27.300Z"
+    },
+    {
+      "id": 613,
+      "team_id": 69,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.306Z",
+      "updated_at": "2023-09-10T14:18:27.306Z"
+    },
+    {
+      "id": 614,
+      "team_id": 67,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.307Z",
+      "updated_at": "2023-09-10T14:18:27.307Z"
+    },
+    {
+      "id": 615,
+      "team_id": 72,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.315Z",
+      "updated_at": "2023-09-10T14:18:27.315Z"
+    },
+    {
+      "id": 616,
+      "team_id": 65,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.317Z",
+      "updated_at": "2023-09-10T14:18:27.317Z"
+    },
+    {
+      "id": 617,
+      "team_id": 74,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.332Z",
+      "updated_at": "2023-09-10T14:18:27.332Z"
+    },
+    {
+      "id": 618,
+      "team_id": 73,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.336Z",
+      "updated_at": "2023-09-10T14:18:27.336Z"
+    },
+    {
+      "id": 619,
+      "team_id": 75,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.339Z",
+      "updated_at": "2023-09-10T14:18:27.339Z"
+    },
+    {
+      "id": 620,
+      "team_id": 76,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.344Z",
+      "updated_at": "2023-09-10T14:18:27.344Z"
+    },
+    {
+      "id": 621,
+      "team_id": 77,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.345Z",
+      "updated_at": "2023-09-10T14:18:27.345Z"
+    },
+    {
+      "id": 622,
+      "team_id": 78,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.352Z",
+      "updated_at": "2023-09-10T14:18:27.352Z"
+    },
+    {
+      "id": 623,
+      "team_id": 80,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.372Z",
+      "updated_at": "2023-09-10T14:18:27.372Z"
+    },
+    {
+      "id": 624,
+      "team_id": 79,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.372Z",
+      "updated_at": "2023-09-10T14:18:27.372Z"
+    },
+    {
+      "id": 625,
+      "team_id": 81,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.378Z",
+      "updated_at": "2023-09-10T14:18:27.378Z"
+    },
+    {
+      "id": 626,
+      "team_id": 82,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.379Z",
+      "updated_at": "2023-09-10T14:18:27.379Z"
+    },
+    {
+      "id": 627,
+      "team_id": 83,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.380Z",
+      "updated_at": "2023-09-10T14:18:27.380Z"
+    },
+    {
+      "id": 628,
+      "team_id": 84,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.390Z",
+      "updated_at": "2023-09-10T14:18:27.390Z"
+    },
+    {
+      "id": 629,
+      "team_id": 85,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.410Z",
+      "updated_at": "2023-09-10T14:18:27.410Z"
+    },
+    {
+      "id": 630,
+      "team_id": 86,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.411Z",
+      "updated_at": "2023-09-10T14:18:27.411Z"
+    },
+    {
+      "id": 631,
+      "team_id": 87,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.416Z",
+      "updated_at": "2023-09-10T14:18:27.416Z"
+    },
+    {
+      "id": 632,
+      "team_id": 89,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.422Z",
+      "updated_at": "2023-09-10T14:18:27.422Z"
+    },
+    {
+      "id": 633,
+      "team_id": 88,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.423Z",
+      "updated_at": "2023-09-10T14:18:27.423Z"
+    },
+    {
+      "id": 634,
+      "team_id": 90,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.428Z",
+      "updated_at": "2023-09-10T14:18:27.428Z"
+    },
+    {
+      "id": 635,
+      "team_id": 91,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.439Z",
+      "updated_at": "2023-09-10T14:18:27.439Z"
+    },
+    {
+      "id": 636,
+      "team_id": 92,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.448Z",
+      "updated_at": "2023-09-10T14:18:27.448Z"
+    },
+    {
+      "id": 637,
+      "team_id": 94,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.455Z",
+      "updated_at": "2023-09-10T14:18:27.455Z"
+    },
+    {
+      "id": 638,
+      "team_id": 93,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.457Z",
+      "updated_at": "2023-09-10T14:18:27.457Z"
+    },
+    {
+      "id": 639,
+      "team_id": 95,
+      "user_id": 32,
+      "is_picked": false,
+      "created_at": "2023-09-10T14:18:27.459Z",
+      "updated_at": "2023-09-10T14:18:27.459Z"
+    },
+    {
+      "id": 640,
+      "team_id": 96,
+      "user_id": 32,
+      "is_picked": true,
+      "created_at": "2023-09-10T14:18:27.460Z",
+      "updated_at": "2023-09-10T14:18:27.460Z"
+    }
+  ]

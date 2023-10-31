@@ -1,0 +1,128 @@
+[
+    {
+      "id": 17,
+      "username": "johnsetlock@gmail.com",
+      "created_at": "2023-08-01T20:37:05.109Z",
+      "updated_at": "2023-08-02T21:00:12.252Z",
+      "password_digest": "$2a$12$OAEoDbP3Ab3Jsuvz0JUNkOl0umYThoCXSd0qZMi80BDdvhAZGThCS",
+      "first_name": "Jay",
+      "last_name": "Setlock"
+    },
+    {
+      "id": 19,
+      "username": "glm3p@aol.com",
+      "created_at": "2023-08-01T21:10:51.352Z",
+      "updated_at": "2023-09-08T14:26:15.895Z",
+      "password_digest": "$2a$12$gFM7kprk2aGbeQ2MFotHgejIrea.pIFPD7UtJcWK4F3VbSewwJ4m2",
+      "first_name": "George",
+      "last_name": "Paddy"
+    },
+    {
+      "id": 18,
+      "username": "Lrpdd96@aol.com",
+      "created_at": "2023-08-01T21:07:52.148Z",
+      "updated_at": "2023-09-08T14:27:14.508Z",
+      "password_digest": "$2a$12$1gCaFX2wsk5.vJzALcwz2.OQBxYM9kOUa6mvvPb.3B2dgnaakFNry",
+      "first_name": "Laura",
+      "last_name": "Paddy"
+    },
+    {
+      "id": 22,
+      "username": "eric.fung.ent@gmail.com",
+      "created_at": "2023-09-08T19:54:26.546Z",
+      "updated_at": "2023-09-08T19:54:26.546Z",
+      "password_digest": "$2a$12$kHMt9RANsY/7VxtoxG.b3.xEWd6jFa1WWcxwdQaY9QL7aBxcDDHXy",
+      "first_name": "Eric",
+      "last_name": "eric.fung.ent@gmail.com"
+    },
+    {
+      "id": 23,
+      "username": "timwolf31@gmail.com",
+      "created_at": "2023-09-08T20:59:49.123Z",
+      "updated_at": "2023-09-08T20:59:49.123Z",
+      "password_digest": "$2a$12$6eeDDYyi0/cSaAMIAAS6iOJDrAsbvO97eQepr5bALIchN6CdfVVpC",
+      "first_name": "Tim",
+      "last_name": "Wolf"
+    },
+    {
+      "id": 24,
+      "username": "Sabrescup@gmail.com",
+      "created_at": "2023-09-08T21:05:56.578Z",
+      "updated_at": "2023-09-08T21:05:56.578Z",
+      "password_digest": "$2a$12$iB.UHuorFEIgOX/dzU1kX.bqjF5rJ2feLRyI9m7D5moIIY7deYwsO",
+      "first_name": "Scott",
+      "last_name": "Nicholson"
+    },
+    {
+      "id": 25,
+      "username": "mawolf2001@gmail.com",
+      "created_at": "2023-09-08T21:36:44.211Z",
+      "updated_at": "2023-09-08T21:36:44.211Z",
+      "password_digest": "$2a$12$0d3dypffQ2bgu9jSvTcp9e.PBbRwzrdmDK/YsWmc383Z38ov.7TJa",
+      "first_name": "Mike",
+      "last_name": "Wolf"
+    },
+    {
+      "id": 26,
+      "username": "aj3.evans@icloud.com",
+      "created_at": "2023-09-08T21:44:41.079Z",
+      "updated_at": "2023-09-08T21:44:41.079Z",
+      "password_digest": "$2a$12$QMf2wIZZl1rfm/ysmqC0IeWg6HlwRdXrT5YP3OGZuSjuPzIEB2LpS",
+      "first_name": "Aidan",
+      "last_name": "Evans"
+    },
+    {
+      "id": 27,
+      "username": "schererjoe@yahoo.com",
+      "created_at": "2023-09-09T17:46:13.628Z",
+      "updated_at": "2023-09-09T17:46:13.628Z",
+      "password_digest": "$2a$12$D146wznLZrtStKnHMfTTC.UuxOlKwR0HM5qRtfUnkt/xTacDSH.Qm",
+      "first_name": "Joe",
+      "last_name": "Scherer"
+    },
+    {
+      "id": 28,
+      "username": "adrianray11@gmail.com",
+      "created_at": "2023-09-09T18:24:11.611Z",
+      "updated_at": "2023-09-09T18:24:11.611Z",
+      "password_digest": "$2a$12$3MFLFopW5wU/pTU2aP3GMeZVTWbRAaAkMP202LoDo/JI6PU/fIUqu",
+      "first_name": "Adrian",
+      "last_name": "Barrientez"
+    },
+    {
+      "id": 29,
+      "username": "11deanda@gmail.com",
+      "created_at": "2023-09-09T18:38:25.992Z",
+      "updated_at": "2023-09-09T18:38:25.992Z",
+      "password_digest": "$2a$12$ZLQ5gpe7BgWPTm1CI7L8F.3TwfFt7xi4dRe/SBQkmtkiVPjp7dfEC",
+      "first_name": "Diego",
+      "last_name": "de Anda"
+    },
+    {
+      "id": 30,
+      "username": "Bec68_0000@yahoo.com",
+      "created_at": "2023-09-09T20:42:54.942Z",
+      "updated_at": "2023-09-09T20:42:54.942Z",
+      "password_digest": "$2a$12$SdoCJGVK72.wZVPah8pAZutsM5n1OC.J6/JiqeHevZLz4yEPjaqgu",
+      "first_name": "Brian ",
+      "last_name": "Clohessy"
+    },
+    {
+      "id": 31,
+      "username": "megan.gilbride@sbcglobal.net",
+      "created_at": "2023-09-09T20:43:21.904Z",
+      "updated_at": "2023-09-09T20:43:21.904Z",
+      "password_digest": "$2a$12$f8xqPafBrKl.P1gDjE8qOuuuBKleewktfVGsNSYDzzJ1D0S1MGsYm",
+      "first_name": "Megan",
+      "last_name": "Gilbride "
+    },
+    {
+      "id": 32,
+      "username": "georgiadoug@hotmail.com",
+      "created_at": "2023-09-10T14:15:53.161Z",
+      "updated_at": "2023-09-10T14:15:53.161Z",
+      "password_digest": "$2a$12$.BXGuQS79islRcUtTwos3eJDBBl9HRFCqIe61aYtoEV.lrPG80PPK",
+      "first_name": "Doug",
+      "last_name": "Evans"
+    }
+  ]

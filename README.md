@@ -45,4 +45,12 @@ heroku login
 BACKUP
 heroku run rails runner 'full script pasted here' -a my-app-name > data.txt
 
- heroku run rails runner 'pp User.all.to_json '  -a ttotalfantasy > data.txt
+ heroku run rails runner 'puts User.all.to_json '  -a ttotalfantasy > user_data.json
+
+  heroku run rails runner 'puts Pick.all.to_json '  -a ttotalfantasy > pick_data.json
+
+
+  loading data into rails console - variable must be capitalized
+  load 'standings.rb'
+
+  
