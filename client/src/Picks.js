@@ -11,7 +11,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     const [isAlert,setAlert] = useState(true);
  
     useEffect(() => {
-        console.log(user)
+        //console.log(user)
         if(user)
         {
         fetch("./teams")
