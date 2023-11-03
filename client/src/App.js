@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import {useNavigate} from 'react-router-dom'
 
 import Login from "./Login.js";
+import Leaderboard from "./Leaderboard.js"
 import Signup from "./Signup.js"
 import Picks from "./Picks.js"
 import About from "./About.js";
@@ -78,7 +79,7 @@ function App() {
               <div name="navBars">
             <nav className="navLinks"><span>
                 <NavLink  to="/">My Picks</NavLink>
-                <NavLink  to="/">Leader Board</NavLink>
+                <NavLink  to="/Leaderboard">Leaderboard</NavLink>
                 <NavLink to="/About">About</NavLink>
                 <a onClick={onLogout}>Logout</a>
                 </span>
@@ -92,6 +93,7 @@ function App() {
           <Route path="/Signup" element={<Signup user={user} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
 
           <Route path="/About" element={<About setIsLoading={setIsLoading} navigate={navigate}/>} />
+          <Route path="/Leaderboard" element={<Leaderboard />} />
 
         <Route path="/" element={<Picks hasCreatedPicks={hasCreatedPicks} setHasCreatedPicks={setHasCreatedPicks} setIsLoading={setIsLoading} user={user}/>}/>
           {/* <Picks/> */}

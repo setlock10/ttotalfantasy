@@ -7,6 +7,10 @@ class UsersController < ApplicationController
         render json: user, status: :created
     end
 
+    def index
+        render json: User.order(:score_total), status: :ok
+    end
+
     def show
         
         current_user = User.find_by(id: session[:user_id])

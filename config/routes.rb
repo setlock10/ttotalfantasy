@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   post '/picks', to: 'picks#create'
   get '/picks', to: 'picks#index'
   patch '/picks/:id', to: 'picks#update'
+  get '/users', to: 'users#index'
 
 
 

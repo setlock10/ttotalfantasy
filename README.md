@@ -54,3 +54,7 @@ heroku run rails runner 'full script pasted here' -a my-app-name > data.txt
   load 'standings.rb'
 
   
+User.all.map{|k| k.picks.map{|j| 
+if j.is_picked
+    j.is_picked}}
+
