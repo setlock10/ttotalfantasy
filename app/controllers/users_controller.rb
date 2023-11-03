@@ -8,7 +8,7 @@ class UsersController < ApplicationController
     end
 
     def index
-        render json: User.order(:score_total), status: :ok
+        render json: User.order(score_total: :desc), status: :ok
     end
 
     def show
