@@ -16,6 +16,7 @@ class PicksController < ApplicationController
 
     end
 
+
     def index
         #byebug
         picks=Pick.where(user_id: session[:user_id])

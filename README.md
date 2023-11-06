@@ -50,11 +50,8 @@ heroku run rails runner 'full script pasted here' -a my-app-name > data.txt
   heroku run rails runner 'puts Pick.all.to_json '  -a ttotalfantasy > pick_data.json
 
 
+UPDATING SCORE
   loading data into rails console - variable must be capitalized
   load 'standings.rb'
 
-  
-User.all.map{|k| k.picks.map{|j| 
-if j.is_picked
-    j.is_picked}}
-
+ User.all.map{|k| k.picks.map{|j| if j.is_picked then k.update(score_total: k.score_total + Team.find(j.team_id).points) end }}
