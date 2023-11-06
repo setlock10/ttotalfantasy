@@ -43,11 +43,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -87,11 +87,11 @@ Standings = {
       },
       "streak": "W3",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -131,11 +131,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -175,11 +175,11 @@ Standings = {
       },
       "streak": "L2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -219,11 +219,11 @@ Standings = {
       },
       "streak": "W4",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -263,11 +263,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -307,11 +307,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -351,11 +351,11 @@ Standings = {
       },
       "streak": "W4",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -395,11 +395,11 @@ Standings = {
       },
       "streak": "W5",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -439,11 +439,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -483,11 +483,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -527,11 +527,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -571,11 +571,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -615,11 +615,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -659,11 +659,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -703,11 +703,11 @@ Standings = {
       },
       "streak": "W2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -747,11 +747,11 @@ Standings = {
       },
       "streak": "W3",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -791,11 +791,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -835,11 +835,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -879,11 +879,11 @@ Standings = {
       },
       "streak": "L2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -923,11 +923,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -967,11 +967,11 @@ Standings = {
       },
       "streak": "W4",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1011,11 +1011,11 @@ Standings = {
       },
       "streak": "W1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1055,11 +1055,11 @@ Standings = {
       },
       "streak": "L2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1099,11 +1099,11 @@ Standings = {
       },
       "streak": "W2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1143,11 +1143,11 @@ Standings = {
       },
       "streak": "L2",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1187,11 +1187,11 @@ Standings = {
       },
       "streak": "L4",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1231,11 +1231,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1275,11 +1275,11 @@ Standings = {
       },
       "streak": "L3",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1319,11 +1319,11 @@ Standings = {
       },
       "streak": "L1",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1363,11 +1363,11 @@ Standings = {
       },
       "streak": "L3",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     },
@@ -1407,11 +1407,11 @@ Standings = {
       },
       "streak": "L6",
       "ncaa_conference": {
-        "won": null,
-        "lost": null,
+        "won": nil,
+        "lost": nil,
         "points": {
-          "for": null,
-          "against": null
+          "for": nil,
+          "against": nil
         }
       }
     }
