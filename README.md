@@ -58,4 +58,6 @@ UPDATING SCORES
 
 Standings[:response].map{|k|  Team.where(name: k[:team][:name]).update(points: k[:won])}
 
+User.all.map{|k| k.update(score_total: 0)}
+
  User.all.map{|k| k.picks.map{|j| if j.is_picked then k.update(score_total: k.score_total + Team.find(j.team_id).points) end }}

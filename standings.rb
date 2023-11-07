@@ -67,25 +67,25 @@ Standings = {
       "division": "AFC East",
       "position": 2,
       "team": {
-        "id": 13,
-        "name": "New York Jets",
-        "logo": "https://media-4.api-sports.io/american-football/teams/13.png"
+        "id": 20,
+        "name": "Buffalo Bills",
+        "logo": "https://media-4.api-sports.io/american-football/teams/20.png"
       },
-      "won": 4,
-      "lost": 3,
+      "won": 5,
+      "lost": 4,
       "ties": 0,
       "points": {
-        "for": 126,
-        "against": 129,
-        "difference": -3
+        "for": 240,
+        "against": 160,
+        "difference": 80
       },
       "records": {
-        "home": "2-2",
-        "road": "2-1",
-        "conference": "2-2",
-        "division": "1-1"
+        "home": "4-1",
+        "road": "1-3",
+        "conference": "2-4",
+        "division": "1-2"
       },
-      "streak": "W3",
+      "streak": "L1",
       "ncaa_conference": {
         "won": nil,
         "lost": nil,
@@ -111,23 +111,23 @@ Standings = {
       "division": "AFC East",
       "position": 3,
       "team": {
-        "id": 20,
-        "name": "Buffalo Bills",
-        "logo": "https://media-4.api-sports.io/american-football/teams/20.png"
+        "id": 13,
+        "name": "New York Jets",
+        "logo": "https://media-4.api-sports.io/american-football/teams/13.png"
       },
-      "won": 5,
+      "won": 4,
       "lost": 4,
       "ties": 0,
       "points": {
-        "for": 240,
-        "against": 160,
-        "difference": 80
+        "for": 132,
+        "against": 156,
+        "difference": -24
       },
       "records": {
-        "home": "4-1",
-        "road": "1-3",
-        "conference": "2-4",
-        "division": "1-2"
+        "home": "2-3",
+        "road": "2-1",
+        "conference": "2-3",
+        "division": "1-1"
       },
       "streak": "L1",
       "ncaa_conference": {
@@ -595,25 +595,25 @@ Standings = {
       "division": "AFC West",
       "position": 2,
       "team": {
-        "id": 1,
-        "name": "Las Vegas Raiders",
-        "logo": "https://media-4.api-sports.io/american-football/teams/1.png"
+        "id": 30,
+        "name": "Los Angeles Chargers",
+        "logo": "https://media-4.api-sports.io/american-football/teams/30.png"
       },
       "won": 4,
-      "lost": 5,
+      "lost": 4,
       "ties": 0,
       "points": {
-        "for": 156,
-        "against": 193,
-        "difference": -37
+        "for": 201,
+        "against": 174,
+        "difference": 27
       },
       "records": {
-        "home": "3-1",
-        "road": "1-4",
+        "home": "2-2",
+        "road": "2-2",
         "conference": "2-3",
         "division": "1-1"
       },
-      "streak": "W1",
+      "streak": "W2",
       "ncaa_conference": {
         "won": nil,
         "lost": nil,
@@ -639,22 +639,22 @@ Standings = {
       "division": "AFC West",
       "position": 3,
       "team": {
-        "id": 30,
-        "name": "Los Angeles Chargers",
-        "logo": "https://media-4.api-sports.io/american-football/teams/30.png"
+        "id": 1,
+        "name": "Las Vegas Raiders",
+        "logo": "https://media-4.api-sports.io/american-football/teams/1.png"
       },
-      "won": 3,
-      "lost": 4,
+      "won": 4,
+      "lost": 5,
       "ties": 0,
       "points": {
-        "for": 174,
-        "against": 168,
-        "difference": 6
+        "for": 156,
+        "against": 193,
+        "difference": -37
       },
       "records": {
-        "home": "2-2",
-        "road": "1-2",
-        "conference": "1-3",
+        "home": "3-1",
+        "road": "1-4",
+        "conference": "2-3",
         "division": "1-1"
       },
       "streak": "W1",
