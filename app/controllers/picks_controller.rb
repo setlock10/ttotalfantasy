@@ -15,11 +15,18 @@ class PicksController < ApplicationController
         # render json: pick, status: :ok
 
     end
+    
 
 
     def index
         #byebug
-        picks=Pick.where(user_id: session[:user_id])
+        # picks=Pick.where(user_id: session[:user_id])
+        # if picks
+        #     render json: picks.sort_by{|k| k[:team_id]}, status: :ok
+        # else
+        #     render json: {error: "Picks Do Not Exist"}, status: :no_content
+        # end
+        picks=Pick.all
         if picks
             render json: picks.sort_by{|k| k[:team_id]}, status: :ok
         else

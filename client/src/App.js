@@ -18,7 +18,7 @@ function App() {
   const [email, setEmail] = useState("");
   const [isLoading,setIsLoading]=useState(false);
   const [hasCreatedPicks,setHasCreatedPicks] = useState(false);
-
+  const [teams,setTeams] = useState([]);
 
   useEffect(()=>{
     console.log(isAuthenticated)
@@ -40,6 +40,12 @@ function App() {
         //console.log("go to logon")
         navigate('/Signup')
       }
+      fetch("./teams")
+      .then((r) => r.json())
+      .then((data)=>{
+          setTeams(data)
+      })
+
       
     })
   
@@ -93,9 +99,9 @@ function App() {
           <Route path="/Signup" element={<Signup user={user} navigate={navigate} setUser={setUser} setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated}/>}  />
 
           <Route path="/About" element={<About setIsLoading={setIsLoading} navigate={navigate}/>} />
-          <Route path="/Leaderboard" element={<Leaderboard />} />
+          <Route path="/Leaderboard" element={<Leaderboard teams={teams}/>} />
 
-        <Route path="/" element={<Picks hasCreatedPicks={hasCreatedPicks} setHasCreatedPicks={setHasCreatedPicks} setIsLoading={setIsLoading} user={user}/>}/>
+        <Route path="/" element={<Picks hasCreatedPicks={hasCreatedPicks} setHasCreatedPicks={setHasCreatedPicks} setIsLoading={setIsLoading} teams={teams}user={user}/>}/>
           {/* <Picks/> */}
          
       </Routes>

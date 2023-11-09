@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import PotCard from "./PotCard.js";
 
-function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user, teams}){
+function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user}){
     const [errors, setErrors] = useState([])
 
-   // const [teams,setTeams] = useState([])
+    const [teams,setTeams] = useState([])
     const [total,setTotal] =useState(0)
     const [picked,setPicked] = useState({});
     const [pickIDs,setPickIDs] = useState({});
@@ -14,88 +14,52 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user, teams}){
         //console.log(user)
         if(user)
         {
-        // fetch("./teams")
-        // .then((r) => r.json())
-        // .then((data)=>{
-        //     setTeams(data)
-        //     console.log(user)
-            let temp = {};
-            let tempIDs={};
-            if (user.picks){
-                setIsLoading(false)
-                //console.log(data)
-                setHasCreatedPicks(true);
+        fetch("./teams")
+        .then((r) => r.json())
+        .then((data)=>{
+            setTeams(data)
+            fetch("./picks")
+                .then((r)=>r.json())
+                .then((data)=>{
+                   // console.log(data)
+                    let temp = {};
+                    let tempIDs={};
+                   // console.log(data)
 
-                for (let i=0; i<user.picks.length;i++){
-                    if (user.picks[i].team_id%32!==0){
-                        temp[user.picks[i].team_id%32]=user.picks[i].is_picked
-                        tempIDs[user.picks[i].team_id%32]=user.picks[i].id
+                    if (data.length!==0){
+                        setHasCreatedPicks(true)
+                        for (let i=0; i<data.length;i++){
+                            if (data[i].team_id%32!==0){
+                                temp[data[i].team_id%32]=data[i].is_picked
+                                tempIDs[data[i].team_id%32]=data[i].id
+                            }
+
+                            else{
+                                temp[32]=data[i].is_picked
+                                tempIDs[32]=data[i].id
+
+                            }
+                        }
+                        setIsLoading(false)
+                        setPickIDs(tempIDs)
                     }
-
                     else{
-                        temp[32]=user.picks[i].is_picked
-                            tempIDs[32]=user.picks[i].id
-
-                    }
-                    //console.log(temp)
-
-                }
-                setPickIDs(tempIDs);
-                setPicked(temp)
-
-            }
-            else{
-                setHasCreatedPicks(false);
+                        setHasCreatedPicks(false);
                         setIsLoading(false);
                         for (let i=1; i<=32;i++){
                             temp[i]=false
                         }
-                
-            }
-            
-           
-            // fetch("./picks")
-            //     .then((r)=>r.json())
-            //     .then((data)=>{
-            //        // console.log(data)
-            //         let temp = {};
-            //         let tempIDs={};
-            //        // console.log(data)
-
-            //         if (data.length!==0){
-            //             setHasCreatedPicks(true)
-            //             for (let i=0; i<data.length;i++){
-            //                 if (data[i].team_id%32!==0){
-            //                     temp[data[i].team_id%32]=data[i].is_picked
-            //                     tempIDs[data[i].team_id%32]=data[i].id
-            //                 }
-
-            //                 else{
-            //                     temp[32]=data[i].is_picked
-            //                     tempIDs[32]=data[i].id
-
-            //                 }
-            //             }
-            //             setIsLoading(false)
-            //             setPickIDs(tempIDs)
-            //         }
-            //         else{
-            //             setHasCreatedPicks(false);
-            //             setIsLoading(false);
-            //             for (let i=1; i<=32;i++){
-            //                 temp[i]=false
-            //             }
 
                        
-            //         }
+                    }
 
-            //         //console.log(temp)
-            //         setPicked(temp)
+                    //console.log(temp)
+                    setPicked(temp)
                     
-            //     })
-        // })
+                })
+        })
 
-         }
+        }
     },[]);
 
           
