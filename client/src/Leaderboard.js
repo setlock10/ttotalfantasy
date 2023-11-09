@@ -42,6 +42,7 @@ function Leaderboard({teams}){
         
         let teamCards = leader.picks.map((pick)=>{
             let teamId=((pick.team_id ===32?32:pick.team_id%32)-1)
+            console.log(teamId)
             return (<td><img style= {pick.is_picked? {opacity:1}: {opacity: 0.5}}className="card-image" alt= {teams[teamId].code} src={teams[teamId].logo} /></td>)
         })
 
