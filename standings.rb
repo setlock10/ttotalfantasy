@@ -1039,21 +1039,21 @@ Standings = {
         "name": "Chicago Bears",
         "logo": "https://media-4.api-sports.io/american-football/teams/16.png"
       },
-      "won": 2,
+      "won": 3,
       "lost": 7,
       "ties": 0,
       "points": {
-        "for": 188,
-        "against": 242,
-        "difference": -54
+        "for": 204,
+        "against": 255,
+        "difference": -51
       },
       "records": {
-        "home": "1-3",
+        "home": "2-3",
         "road": "1-4",
-        "conference": "1-4",
+        "conference": "2-4",
         "division": "0-2"
       },
-      "streak": "L2",
+      "streak": "W1",
       "ncaa_conference": {
         "won": nil,
         "lost": nil,
@@ -1216,20 +1216,20 @@ Standings = {
         "logo": "https://media-4.api-sports.io/american-football/teams/19.png"
       },
       "won": 1,
-      "lost": 7,
+      "lost": 8,
       "ties": 0,
       "points": {
-        "for": 140,
-        "against": 226,
-        "difference": -86
+        "for": 153,
+        "against": 242,
+        "difference": -89
       },
       "records": {
         "home": "1-3",
-        "road": "0-4",
-        "conference": "0-5",
+        "road": "0-5",
+        "conference": "0-6",
         "division": "0-2"
       },
-      "streak": "L1",
+      "streak": "L2",
       "ncaa_conference": {
         "won": nil,
         "lost": nil,
