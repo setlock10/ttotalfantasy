@@ -52,7 +52,11 @@ heroku run rails runner 'full script pasted here' -a my-app-name > data.txt
 
 UPDATING SCORES
     https://rapidapi.com/api-sports/api/api-american-football/
+    
     replace null with nil
+ sed -i 's/null/nil/g' standings.rb
+
+
   loading data into rails console - variable must be capitalized
   load 'standings.rb'
 

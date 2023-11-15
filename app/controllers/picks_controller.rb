@@ -1,8 +1,8 @@
 
 class PicksController < ApplicationController
     def create
-        # byebug
-        #  pick= Pick.create(user_id:  session[:user_id],team_id: Team.find_by(number: pick_params[:team_id]).id,is_picked: pick_params[:is_picked])
+        
+        # pick= Pick.create(user_id:  session[:user_id],team_id: Team.find_by(number: pick_params[:team_id]).id,is_picked: pick_params[:is_picked])
        
         # render json: pick, status: :created
     end
@@ -10,7 +10,7 @@ class PicksController < ApplicationController
     def update
         
         # pick =Pick.find_by(id: pick_params[:id])
-        # #byebug
+      
         # pick.update(is_picked: pick_params[:is_picked])
         # render json: pick, status: :ok
 

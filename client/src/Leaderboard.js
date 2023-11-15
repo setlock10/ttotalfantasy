@@ -48,7 +48,7 @@ function Leaderboard({teams}){
 
         
 
-        return (<tr><td>{leader.first_name}</td><td>{leader.last_name}</td><td>{leader.score_total}</td> {teamCards}  </tr>   )
+        return (<tr><td className="headcol">{leader.first_name} {leader.last_name}</td><td >{leader.score_total}</td> {teamCards}  </tr>   )
 
     })
 
@@ -59,10 +59,12 @@ function Leaderboard({teams}){
 
 
     return(
+        <div id="lb-holder">
         <table id="leaderboard">
-            <th><td> </td><td> </td><td>Total Score</td></th>
+            <th><td>fn </td><td>ln </td><td>Total Score</td></th>
         {leaderCards}
         </table>
+        </div>
     )
 
 

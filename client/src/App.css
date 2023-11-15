@@ -147,6 +147,7 @@ div{
   border-radius:10px;
   box-shadow: 0px 0px 10px lightgray;
   margin-left:5px;
+  overflow-x: scroll;
 
 }
 
@@ -206,3 +207,23 @@ div{
    
   }
   
+  .headcol {
+    position: absolute; 
+    width: 50px;
+    left: 0px;
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+  }
+  .headcol:before {
+    /* content: 'Row '; */
+  }
+  #lb-holder{
+    width: 500px;
+  overflow-x: scroll;
+  margin-left: 5em;
+  overflow-y: visible;
+  padding: 0;
+  }

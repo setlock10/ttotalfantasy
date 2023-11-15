@@ -202,6 +202,7 @@ function Picks({hasCreatedPicks,setHasCreatedPicks,setIsLoading,user, teams}){
             }
             obj[i]['user_id']=user.id;
         }
+        console.log(obj);
 
         Promise.all(obj.map(data=>(
             fetch(`/picks`,{
