@@ -19,12 +19,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-td, th {
-  /* border: 1px solid #dddddd;
+td, tr, th {
   text-align: left;
-  padding: 0px;
+  /* padding: 0px; */
   height: 25px;
-  font-size: 9pt; */
+  font-size: 9pt;
+  background: white;
+  white-space: nowrap;
  
 }
 #header{
@@ -140,21 +141,15 @@ div{
 #leaderboard{
   
   top:150px;
-  height: 250px;
+  height: 800px;
+  /*
   position: absolute;
   width:400px;
   border: 1px solid white;
   border-radius:10px;
   box-shadow: 0px 0px 10px lightgray;
   margin-left:5px;
-  overflow-x: scroll;
-
-}
-
-#table{
-
-  
-  width:400px;
+  overflow-x: scroll; */
   border: 1px solid white;
   border-radius:10px;
   box-shadow: 0px 0px 10px lightgray;
@@ -162,7 +157,22 @@ div{
   margin-top:2px;
   margin-bottom: 1%;
   margin-left:-5px;
+  border-spacing: 0;
+
 }
+
+/* #table{
+
+  
+  width:400px;
+  border: 1px solid white;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px lightgray;
+  margin-left: 1%; 
+  margin-top:2px;
+  margin-bottom: 1%;
+  margin-left:-5px;
+} */
 .red{
   color: red;
 }
@@ -221,9 +231,60 @@ div{
     /* content: 'Row '; */
   }
   #lb-holder{
-    width: 500px;
+    /* width: 500px;
   overflow-x: scroll;
   margin-left: 5em;
   overflow-y: visible;
-  padding: 0;
+  padding: 0; */
+    max-width:400px;
+    overflow-x: auto;
+    position: relative;
   }
+
+  td:nth-of-type(1),th:nth-of-type(1){
+    position: -webkit-sticky;
+    position: sticky;
+    left:0px;
+    z-index: 2;
+    min-width:75px;
+  }
+
+  td:nth-of-type(2),th:nth-of-type(2){
+    position: -webkit-sticky;
+    position: sticky;
+    left:75px;
+    z-index: 2;
+    min-width:75px;
+  }
+  td:nth-of-type(3),th:nth-of-type(3){
+    position: -webkit-sticky;
+    position: sticky;
+    left:150px;
+    z-index: 2;
+    min-width:50px;
+  }
+  th:nth-of-type(4),td:nth-of-type(4){
+    border-left: 1px solid gray;
+    
+  }
+  th:nth-of-type(8),td:nth-of-type(8){
+    border-left: 1px solid lightgray;
+  }  th:nth-of-type(12),td:nth-of-type(12){
+    border-left: 1px solid black;
+  }
+  th:nth-of-type(16),td:nth-of-type(16){
+    border-left: 1px solid black;
+  }
+  th:nth-of-type(20),td:nth-of-type(20){
+    border-left: 1px solid black;
+  }
+  th:nth-of-type(24),td:nth-of-type(24){
+    border-left: 1px solid black;
+  }
+  th:nth-of-type(28),td:nth-of-type(28){
+    border-left: 1px solid black;
+  }
+  th:nth-of-type(28),td:nth-of-type(32){
+    border-left: 1px solid black;
+  }
+  

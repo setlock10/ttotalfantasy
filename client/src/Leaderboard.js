@@ -34,11 +34,25 @@ function Leaderboard({teams}){
     // })
     // console.log(teamcards)
 
+     
+   
+    
+    let headerRow=[];
+    
 
 
 
-    let leaderCards = leaders.map((leader)=>{
+
+    let leaderCards = leaders.map((leader,index)=>{
         console.log(leader.picks)
+        if(index===0){
+            headerRow= leader.picks.map((pick,i)=>{
+                if(i%4===0)
+                    return (<th>{`Pot ${i/4+1}`}</th>)
+                else
+                    return (<th> </th>)
+            })
+        }
         
         let teamCards = leader.picks.map((pick)=>{
             let teamId=((pick.team_id%32 ===0?32:pick.team_id%32)-1)
@@ -52,6 +66,15 @@ function Leaderboard({teams}){
 
     })
 
+   //Make Header Row
+    // let headerRow= leaders[0].picks.map((pick,index)=>{
+    //     if (index%4===0){
+    //         return(<th>Pot {index}</th> )
+    //     }
+    //     else{
+    //         return(<th></th>)
+    //     }
+    // })
 
 
 
@@ -61,7 +84,7 @@ function Leaderboard({teams}){
     return(
         <div id="lb-holder">
         <table id="leaderboard">
-            <th><td>fn </td><td>ln </td><td>Total Score</td></th>
+            <tr><th>First Name </th><th>Last Name </th><th>Total Score</th>{headerRow}</tr>
         {leaderCards}
         </table>
         </div>

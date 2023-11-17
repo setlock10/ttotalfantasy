@@ -70,4 +70,14 @@ User.all.map{|k| k.update(score_total: 0)}
  *****
  Standings 2
 
- Standings[:body].map{|k| Team.where(id: Code.find_by(code: k[:teamAbv]).team_id).update(points: k[:wins])}
+  load 'new-standings.rb'
+
+Team.all.map{|k| k.update(points: 0)}
+
+ Standings[:body].map{|k| Team.find_by(id: Code.find_by(code: k[:teamAbv]).team_id).update(points: k[:wins])}
+
+ Standings[:body].map{|k| Team.find_by(id: Code.find_by(code: k[:teamAbv]).team_id+32).update(points: k[:wins])}
+
+User.all.map{|k| k.update(score_total: 0)}
+
+ User.all.map{|k| k.picks.map{|j| if j.is_picked then k.update(score_total: k.score_total + Team.find(j.team_id).points) end }}
